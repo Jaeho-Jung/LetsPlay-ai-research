@@ -1,7 +1,7 @@
 import os
 import csv
 import sys
-from constants import _TRANSCRIPT_OUTPUT_FILE
+from constants import _AUDIO_DIR, _AUDIO_AUG_DIR, _TRANSCRIPT_OUTPUT_FILE
 
 def create_mapping(audio_dirs):
     mapping = []
@@ -28,13 +28,13 @@ def write_to_csv(mapping, output_file):
             writer.writerow(item)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python mapper.py <audio_dir> <audio_aug_dir>")
-        sys.exit(1)
-
-    audio_dir = sys.argv[1]
-    audio_aug_dir = sys.argv[2]
-    audio_dirs = [audio_dir, audio_aug_dir]
-
+    if len(sys.argv) < 4:
+        audio_dirs = [_AUDIO_DIR, _AUDIO_AUG_DIR]
+        output_file = _TRANSCRIPT_OUTPUT_FILE
+        print(f"No arguments provided. Using default directories: {_AUDIO_DIR} and {_AUDIO_AUG_DIR} with output file: {_TRANSCRIPT_OUTPUT_FILE}")
+    else:
+        audio_dirs = [sys.argv[1], sys.argv[2]]
+        output_file = sys.argv[3]
+    
     mapping = create_mapping(audio_dirs)
-    write_to_csv(mapping, _TRANSCRIPT_OUTPUT_FILE)
+    write_to_csv(mapping, output_file)
