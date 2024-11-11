@@ -31,7 +31,8 @@ if __name__ == "__main__":
     if len(sys.argv) < 4:
         audio_dirs = [_AUDIO_DIR, _AUDIO_AUG_DIR]
         output_file = _TRANSCRIPT_OUTPUT_FILE
-        print(f"No arguments provided. Using default directories: {_AUDIO_DIR} and {_AUDIO_AUG_DIR} with output file: {_TRANSCRIPT_OUTPUT_FILE}")
+        print(f"No arguments provided.")
+        exit
     else:
         audio_dirs = [sys.argv[1], sys.argv[2]]
         output_file = sys.argv[3]

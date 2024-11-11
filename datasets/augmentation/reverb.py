@@ -50,7 +50,7 @@ def apply_augmentation(y, sr):
     Applies reverberation augmentation multiple times and returns the augmented audio data with suffixes.
     """
     augmentations = []
-    for i in range(4):  # Apply the augmentation 4 times with varying reverberation
+    for i in range(3):  # Apply the augmentation 4 times with varying reverberation
         y_reverberated = apply_reverberation(y, sr)
         suffix = f"reverb_{i}"
         augmentations.append((y_reverberated, suffix))
