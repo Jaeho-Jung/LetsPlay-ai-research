@@ -61,27 +61,28 @@ audio_test/audiotest_4_강아지.wav,강아지
 audio_test/test_2_고양이.wav,고양이
 audio_test/audiotest_8_고양이.wav,고양이
 audio_test/test_7_강아지.wav,강아지
-audio_test_augmented/audio_2_강아지_test_reverb_2.wav,강아지
 audio_test_augmented/audiotest_8_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/test_10_고양이_mixer_talking.wav,고양이
 audio_test_augmented/test_2_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audiotest_6_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audio_9_강아지_test_mixer_cooking.wav,강아지
+audio_test_augmented/test_1_고양이_random_3961Hz.wav,고양이
 audio_test_augmented/test_1_고양이_mixer_crying baby.wav,고양이
-audio_test_augmented/test_2_고양이_random_3208Hz.wav,고양이
 audio_test_augmented/test_6_강아지_frequency_masked.wav,강아지
+audio_test_augmented/test_1_강아지_reverb.wav,강아지
 audio_test_augmented/test_10_고양이_specswap.wav,고양이
 audio_test_augmented/audio_1_강아지_test_mixer_Dog's barking.wav,강아지
+audio_test_augmented/test_10_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_1_강아지_frequency_masked.wav,강아지
 audio_test_augmented/test_9_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/test_8_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audio_3_강아지_test_speed_0.8.wav,강아지
 audio_test_augmented/test_2_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audio_5_강아지_test_mixer_eating.wav,강아지
+audio_test_augmented/audio_7_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_5_고양이_mixer_Dog's barking.wav,고양이
 audio_test_augmented/audio_2_고양이_test_mixer_footsteps.wav,고양이
 audio_test_augmented/audio_1_고양이_test_mixer_eating.wav,고양이
-audio_test_augmented/audiotest_10_고양이_random_1272Hz.wav,고양이
 audio_test_augmented/audio_1_고양이_test_mixer_talking.wav,고양이
 audio_test_augmented/audio_9_고양이_test_mixer_breathing.wav,고양이
 audio_test_augmented/audio_1_강아지_test_specswap.wav,강아지
@@ -89,44 +90,54 @@ audio_test_augmented/audiotest_9_강아지_spec_augment_frequency_masked.wav,강
 audio_test_augmented/test_7_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audio_2_고양이_test_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_9_강아지_test_mixer_breathing.wav,강아지
-audio_test_augmented/audio_4_고양이_test_reverb_0.wav,고양이
 audio_test_augmented/audio_5_강아지_test_mixer_talking.wav,강아지
+audio_test_augmented/audiotest_2_강아지_reverb.wav,강아지
 audio_test_augmented/test_5_강아지_mixer_crying baby.wav,강아지
+audio_test_augmented/audio_9_강아지_test_reverb.wav,강아지
 audio_test_augmented/audiotest_7_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/test_9_고양이_frequency_masked.wav,고양이
+audio_test_augmented/audiotest_10_강아지_speed_0.9.wav,강아지
+audio_test_augmented/audiotest_4_강아지_speed_0.9.wav,강아지
+audio_test_augmented/test_8_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_2_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/audio_6_강아지_test_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audio_10_고양이_test_specswap.wav,고양이
 audio_test_augmented/audiotest_4_강아지_speed_0.8.wav,강아지
 audio_test_augmented/test_8_고양이_mixer_talking.wav,고양이
 audio_test_augmented/audiotest_10_강아지_speed_0.8.wav,강아지
+audio_test_augmented/audio_6_강아지_test_reverb.wav,강아지
 audio_test_augmented/audio_10_고양이_test_mixer_footsteps.wav,고양이
 audio_test_augmented/test_8_고양이_speed_0.8.wav,고양이
-audio_test_augmented/audio_9_강아지_test_random_1003Hz.wav,강아지
 audio_test_augmented/test_10_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_1_강아지_test_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_6_고양이_mixer_breathing.wav,고양이
-audio_test_augmented/audio_4_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/audio_10_고양이_test_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_8_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audiotest_5_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_4_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_1_강아지_step.wav,강아지
 audio_test_augmented/test_6_강아지_mixer_cooking.wav,강아지
+audio_test_augmented/audiotest_5_강아지_speed_1.1.wav,강아지
+audio_test_augmented/test_9_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_8_강아지_mixer_eating.wav,강아지
 audio_test_augmented/audio_2_강아지_test_step.wav,강아지
 audio_test_augmented/test_8_고양이_step.wav,고양이
 audio_test_augmented/audio_10_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/audio_6_고양이_test_mixer_Dog's barking.wav,고양이
+audio_test_augmented/test_3_고양이_reverb.wav,고양이
 audio_test_augmented/audiotest_6_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/test_5_강아지_speed_1.2.wav,강아지
 audio_test_augmented/test_5_강아지_noise_reduced.wav,강아지
 audio_test_augmented/audiotest_9_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audio_6_고양이_test_step.wav,고양이
 audio_test_augmented/test_8_고양이_mixer_footsteps.wav,고양이
+audio_test_augmented/audio_3_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/audio_6_고양이_test_speed_1.2.wav,고양이
 audio_test_augmented/audio_10_고양이_test_mixer_eating.wav,고양이
+audio_test_augmented/audiotest_1_고양이_speed_1.1.wav,고양이
+audio_test_augmented/audio_8_고양이_test_random_2861Hz.wav,고양이
+audio_test_augmented/audiotest_10_고양이_reverb.wav,고양이
 audio_test_augmented/test_1_고양이_speed_1.2.wav,고양이
 audio_test_augmented/test_7_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audio_3_강아지_test_mixer_talking.wav,강아지
@@ -140,7 +151,6 @@ audio_test_augmented/test_8_강아지_step.wav,강아지
 audio_test_augmented/audio_3_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audio_9_고양이_test_mixer_coughing.wav,고양이
 audio_test_augmented/audio_9_강아지_test_mixer_talking.wav,강아지
-audio_test_augmented/audio_2_강아지_test_reverb_1.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_eating.wav,강아지
 audio_test_augmented/test_3_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/test_10_고양이_mixer_cooking.wav,고양이
@@ -149,7 +159,6 @@ audio_test_augmented/audiotest_2_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/audiotest_6_강아지_mixer_eating.wav,강아지
 audio_test_augmented/test_10_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/test_3_고양이_noise_reduced.wav,고양이
-audio_test_augmented/audio_8_고양이_test_random_788Hz.wav,고양이
 audio_test_augmented/test_10_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audiotest_9_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_3_강아지_mixer_crying baby.wav,강아지
@@ -157,24 +166,28 @@ audio_test_augmented/audiotest_10_고양이_specswap.wav,고양이
 audio_test_augmented/audiotest_3_강아지_noise_reduced.wav,강아지
 audio_test_augmented/test_3_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_7_강아지_test_speed_1.2.wav,강아지
+audio_test_augmented/audio_2_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audio_0_고양이_test_mixer_crying baby.wav,고양이
 audio_test_augmented/audiotest_7_고양이_mixer_crying baby.wav,고양이
+audio_test_augmented/audiotest_3_고양이_random_722Hz.wav,고양이
 audio_test_augmented/audio_1_고양이_test_mixer_cooking.wav,고양이
 audio_test_augmented/audio_7_강아지_test_mixer_crying baby.wav,강아지
+audio_test_augmented/audiotest_8_고양이_speed_0.9.wav,고양이
+audio_test_augmented/test_4_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audio_5_강아지_test_mixer_cooking.wav,강아지
 audio_test_augmented/test_7_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audiotest_5_강아지_mixer_Dog's barking.wav,강아지
-audio_test_augmented/audio_7_강아지_test_random_3568Hz.wav,강아지
+audio_test_augmented/audio_5_고양이_test_reverb.wav,고양이
 audio_test_augmented/audiotest_2_강아지_mixer_eating.wav,강아지
 audio_test_augmented/test_6_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/test_8_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_7_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audio_6_고양이_test_mixer_footsteps.wav,고양이
+audio_test_augmented/audiotest_9_강아지_random_3435Hz.wav,강아지
 audio_test_augmented/audiotest_8_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audio_10_고양이_test_mixer_talking.wav,고양이
 audio_test_augmented/audiotest_8_고양이_speed_0.8.wav,고양이
 audio_test_augmented/test_4_강아지_speed_0.8.wav,강아지
-audio_test_augmented/audio_4_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/audio_6_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/test_9_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audiotest_5_강아지_speed_1.2.wav,강아지
@@ -184,53 +197,57 @@ audio_test_augmented/audio_10_고양이_test_frequency_masked.wav,�
 audio_test_augmented/test_6_강아지_mixer_talking.wav,강아지
 audio_test_augmented/test_3_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audiotest_6_고양이_mixer_talking.wav,고양이
+audio_test_augmented/audiotest_8_고양이_random_3203Hz.wav,고양이
+audio_test_augmented/audiotest_9_고양이_speed_1.1.wav,고양이
+audio_test_augmented/test_5_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_2_고양이_test_speed_0.8.wav,고양이
 audio_test_augmented/audio_0_고양이_test_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_1_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audio_7_고양이_test_specswap.wav,고양이
 audio_test_augmented/audio_9_강아지_test_mixer_coughing.wav,강아지
-audio_test_augmented/test_1_고양이_random_3963Hz.wav,고양이
-audio_test_augmented/audiotest_8_강아지_random_396Hz.wav,강아지
+audio_test_augmented/audio_6_고양이_test_speed_1.1.wav,고양이
+audio_test_augmented/test_1_고양이_speed_1.1.wav,고양이
 audio_test_augmented/audio_3_강아지_test_mixer_cooking.wav,강아지
+audio_test_augmented/audio_6_고양이_test_random_1470Hz.wav,고양이
 audio_test_augmented/audiotest_8_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audiotest_8_강아지_spec_augment_frequency_masked.wav,강아지
-audio_test_augmented/test_1_강아지_random_1381Hz.wav,강아지
+audio_test_augmented/audiotest_10_고양이_random_594Hz.wav,고양이
 audio_test_augmented/test_3_고양이_step.wav,고양이
 audio_test_augmented/audio_7_고양이_test_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_3_고양이_mixer_breathing.wav,고양이
-audio_test_augmented/audio_2_강아지_test_reverb_0.wav,강아지
 audio_test_augmented/test_6_고양이_specswap.wav,고양이
-audio_test_augmented/test_4_고양이_reverb_1.wav,고양이
 audio_test_augmented/audiotest_10_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audio_5_강아지_test_mixer_breathing.wav,강아지
 audio_test_augmented/audio_6_고양이_test_mixer_eating.wav,고양이
-audio_test_augmented/audio_6_고양이_test_random_2356Hz.wav,고양이
 audio_test_augmented/audiotest_9_강아지_specswap.wav,강아지
-audio_test_augmented/audio_5_강아지_test_reverb_0.wav,강아지
 audio_test_augmented/test_7_강아지_step.wav,강아지
+audio_test_augmented/audio_1_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/test_2_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/audio_7_고양이_test_mixer_Dog's barking.wav,고양이
 audio_test_augmented/audiotest_6_강아지_speed_0.8.wav,강아지
 audio_test_augmented/test_9_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/test_8_강아지_specswap.wav,강아지
-audio_test_augmented/audiotest_2_강아지_random_3097Hz.wav,강아지
 audio_test_augmented/audio_0_고양이_test_specswap.wav,고양이
 audio_test_augmented/test_7_강아지_speed_1.2.wav,강아지
 audio_test_augmented/test_2_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/audio_0_강아지_test_step.wav,강아지
 audio_test_augmented/audiotest_7_고양이_specswap.wav,고양이
 audio_test_augmented/test_9_강아지_mixer_footsteps.wav,강아지
-audio_test_augmented/audiotest_5_고양이_reverb_1.wav,고양이
+audio_test_augmented/audiotest_5_강아지_random_1280Hz.wav,강아지
+audio_test_augmented/audio_2_강아지_test_reverb.wav,강아지
 audio_test_augmented/audio_5_고양이_test_mixer_breathing.wav,고양이
+audio_test_augmented/audiotest_7_강아지_speed_1.1.wav,강아지
+audio_test_augmented/audio_10_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/test_1_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audio_0_고양이_test_mixer_Dog's barking.wav,고양이
-audio_test_augmented/test_1_고양이_reverb_0.wav,고양이
 audio_test_augmented/test_10_강아지_mixer_eating.wav,강아지
 audio_test_augmented/audio_9_고양이_test_noise_reduced.wav,고양이
 audio_test_augmented/test_3_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audio_7_고양이_test_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/test_7_고양이_step.wav,고양이
 audio_test_augmented/audio_9_고양이_test_speed_0.8.wav,고양이
+audio_test_augmented/audiotest_4_고양이_random_2559Hz.wav,고양이
+audio_test_augmented/audiotest_3_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_10_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/audio_4_고양이_test_step.wav,고양이
 audio_test_augmented/test_6_고양이_mixer_crying baby.wav,고양이
@@ -240,9 +257,7 @@ audio_test_augmented/test_4_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audio_2_고양이_test_frequency_masked.wav,고양이
 audio_test_augmented/audio_5_고양이_test_speed_0.8.wav,고양이
 audio_test_augmented/audiotest_7_강아지_mixer_breathing.wav,강아지
-audio_test_augmented/audiotest_1_강아지_reverb_2.wav,강아지
 audio_test_augmented/audiotest_8_강아지_mixer_Dog's barking.wav,강아지
-audio_test_augmented/audio_3_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/audiotest_2_고양이_speed_0.8.wav,고양이
 audio_test_augmented/audio_2_강아지_test_mixer_eating.wav,강아지
 audio_test_augmented/audiotest_9_고양이_mixer_eating.wav,고양이
@@ -251,53 +266,47 @@ audio_test_augmented/test_10_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audio_0_강아지_test_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_2_고양이_specswap.wav,고양이
 audio_test_augmented/test_10_고양이_mixer_breathing.wav,고양이
+audio_test_augmented/audiotest_2_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_8_고양이_test_specswap.wav,고양이
-audio_test_augmented/test_8_강아지_random_3841Hz.wav,강아지
+audio_test_augmented/audio_5_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audio_0_강아지_test_speed_1.2.wav,강아지
 audio_test_augmented/audio_6_고양이_test_mixer_crying baby.wav,고양이
-audio_test_augmented/test_2_강아지_random_1603Hz.wav,강아지
+audio_test_augmented/audio_9_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/test_2_고양이_mixer_Dog's barking.wav,고양이
 audio_test_augmented/test_3_고양이_specswap.wav,고양이
 audio_test_augmented/audio_1_고양이_test_mixer_coughing.wav,고양이
-audio_test_augmented/test_1_고양이_reverb_1.wav,고양이
 audio_test_augmented/audio_1_강아지_test_mixer_crying baby.wav,강아지
 audio_test_augmented/test_7_강아지_mixer_Dog's barking.wav,강아지
-audio_test_augmented/audiotest_5_고양이_reverb_0.wav,고양이
 audio_test_augmented/audio_4_강아지_test_mixer_coughing.wav,강아지
 audio_test_augmented/test_4_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_8_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_7_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/test_7_고양이_mixer_cooking.wav,고양이
-audio_test_augmented/audiotest_4_강아지_reverb_2.wav,강아지
 audio_test_augmented/audiotest_4_강아지_noise_reduced.wav,강아지
 audio_test_augmented/audio_6_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audio_7_강아지_test_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audio_10_강아지_test_noise_reduced.wav,강아지
 audio_test_augmented/test_8_강아지_mixer_breathing.wav,강아지
-audio_test_augmented/test_5_강아지_reverb_2.wav,강아지
+audio_test_augmented/audiotest_6_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audiotest_9_고양이_mixer_talking.wav,고양이
-audio_test_augmented/audio_5_강아지_test_reverb_1.wav,강아지
 audio_test_augmented/test_3_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/test_9_강아지_mixer_talking.wav,강아지
-audio_test_augmented/test_4_고양이_reverb_0.wav,고양이
 audio_test_augmented/audiotest_8_고양이_mixer_vacuum cleaner.wav,고양이
-audio_test_augmented/test_4_고양이_reverb_2.wav,고양이
 audio_test_augmented/test_6_강아지_speed_0.8.wav,강아지
 audio_test_augmented/audiotest_3_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_10_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audiotest_2_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/test_4_고양이_frequency_masked.wav,고양이
-audio_test_augmented/test_6_고양이_random_2437Hz.wav,고양이
 audio_test_augmented/test_9_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/audiotest_5_강아지_step.wav,강아지
-audio_test_augmented/test_5_강아지_reverb_0.wav,강아지
+audio_test_augmented/audio_10_고양이_test_reverb.wav,고양이
 audio_test_augmented/audio_1_고양이_test_speed_1.2.wav,고양이
 audio_test_augmented/audio_1_강아지_test_noise_reduced.wav,강아지
-audio_test_augmented/audiotest_5_강아지_random_463Hz.wav,강아지
+audio_test_augmented/audio_4_강아지_test_speed_0.9.wav,강아지
+audio_test_augmented/test_7_강아지_speed_1.1.wav,강아지
+audio_test_augmented/audio_8_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/audio_5_고양이_test_noise_reduced.wav,고양이
-audio_test_augmented/audiotest_4_강아지_reverb_0.wav,강아지
 audio_test_augmented/audiotest_9_고양이_mixer_breathing.wav,고양이
-audio_test_augmented/audiotest_5_고양이_reverb_2.wav,고양이
 audio_test_augmented/audiotest_7_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_9_고양이_test_mixer_eating.wav,고양이
 audio_test_augmented/audiotest_10_고양이_mixer_crying baby.wav,고양이
@@ -307,6 +316,7 @@ audio_test_augmented/audiotest_1_고양이_mixer_eating.wav,고양이
 audio_test_augmented/audio_10_강아지_test_speed_1.2.wav,강아지
 audio_test_augmented/audio_8_강아지_test_step.wav,강아지
 audio_test_augmented/audiotest_8_고양이_mixer_Dog's barking.wav,고양이
+audio_test_augmented/test_3_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_5_강아지_frequency_masked.wav,강아지
 audio_test_augmented/test_1_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audiotest_2_고양이_noise_reduced.wav,고양이
@@ -316,53 +326,48 @@ audio_test_augmented/audiotest_1_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_5_고양이_step.wav,고양이
 audio_test_augmented/test_3_고양이_mixer_eating.wav,고양이
 audio_test_augmented/test_2_강아지_specswap.wav,강아지
+audio_test_augmented/audiotest_3_고양이_reverb.wav,고양이
 audio_test_augmented/test_2_고양이_speed_0.8.wav,고양이
 audio_test_augmented/audiotest_3_강아지_specswap.wav,강아지
-audio_test_augmented/audiotest_1_강아지_reverb_1.wav,강아지
-audio_test_augmented/audio_3_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/test_7_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/audiotest_4_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/test_2_강아지_mixer_Dog's barking.wav,강아지
-audio_test_augmented/audio_3_고양이_test_reverb_0.wav,고양이
+audio_test_augmented/test_2_강아지_reverb.wav,강아지
 audio_test_augmented/audio_1_강아지_test_mixer_coughing.wav,강아지
+audio_test_augmented/audio_0_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/audio_3_고양이_test_noise_reduced.wav,고양이
-audio_test_augmented/audiotest_1_강아지_reverb_0.wav,강아지
+audio_test_augmented/test_2_고양이_speed_0.9.wav,고양이
 audio_test_augmented/test_6_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/test_8_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audio_7_강아지_test_noise_reduced.wav,강아지
-audio_test_augmented/test_4_강아지_random_1431Hz.wav,강아지
-audio_test_augmented/test_9_고양이_random_3286Hz.wav,고양이
 audio_test_augmented/audio_6_강아지_test_specswap.wav,강아지
 audio_test_augmented/audio_10_고양이_test_mixer_crying baby.wav,고양이
-audio_test_augmented/test_1_고양이_reverb_2.wav,고양이
 audio_test_augmented/audiotest_8_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/audiotest_7_강아지_mixer_talking.wav,강아지
 audio_test_augmented/test_9_고양이_specswap.wav,고양이
+audio_test_augmented/audiotest_1_강아지_reverb.wav,강아지
 audio_test_augmented/test_7_고양이_mixer_eating.wav,고양이
-audio_test_augmented/test_7_고양이_random_1927Hz.wav,고양이
+audio_test_augmented/audio_1_고양이_test_reverb.wav,고양이
 audio_test_augmented/audio_1_강아지_test_mixer_breathing.wav,강아지
 audio_test_augmented/audiotest_1_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audiotest_6_강아지_specswap.wav,강아지
-audio_test_augmented/audiotest_4_강아지_random_3281Hz.wav,강아지
 audio_test_augmented/test_9_강아지_mixer_coughing.wav,강아지
-audio_test_augmented/audiotest_4_강아지_reverb_1.wav,강아지
 audio_test_augmented/audio_8_강아지_test_speed_0.8.wav,강아지
 audio_test_augmented/audiotest_5_고양이_mixer_eating.wav,고양이
 audio_test_augmented/test_7_고양이_mixer_talking.wav,고양이
 audio_test_augmented/audio_4_강아지_test_speed_0.8.wav,강아지
 audio_test_augmented/audio_1_고양이_test_mixer_breathing.wav,고양이
 audio_test_augmented/test_7_강아지_specswap.wav,강아지
-audio_test_augmented/test_5_강아지_reverb_1.wav,강아지
 audio_test_augmented/audiotest_9_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_3_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/test_5_강아지_mixer_coughing.wav,강아지
-audio_test_augmented/audio_5_강아지_test_reverb_2.wav,강아지
 audio_test_augmented/audiotest_8_고양이_specswap.wav,고양이
 audio_test_augmented/test_7_고양이_mixer_Dog's barking.wav,고양이
 audio_test_augmented/test_9_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audio_4_고양이_test_mixer_coughing.wav,고양이
-audio_test_augmented/audio_3_고양이_test_random_1585Hz.wav,고양이
+audio_test_augmented/test_6_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audiotest_3_고양이_mixer_footsteps.wav,고양이
+audio_test_augmented/audiotest_5_고양이_reverb.wav,고양이
 audio_test_augmented/audiotest_2_강아지_mixer_talking.wav,강아지
 audio_test_augmented/test_9_강아지_step.wav,강아지
 audio_test_augmented/audio_5_고양이_test_spec_augment_frequency_masked.wav,고양이
@@ -371,19 +376,22 @@ audio_test_augmented/test_9_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/test_2_고양이_mixer_talking.wav,고양이
 audio_test_augmented/audiotest_1_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/test_5_고양이_mixer_coughing.wav,고양이
-audio_test_augmented/test_10_강아지_random_2656Hz.wav,강아지
+audio_test_augmented/audiotest_8_고양이_reverb.wav,고양이
 audio_test_augmented/audio_4_고양이_test_speed_0.8.wav,고양이
-audio_test_augmented/audio_0_강아지_test_reverb_2.wav,강아지
+audio_test_augmented/test_10_고양이_random_2739Hz.wav,고양이
 audio_test_augmented/audiotest_8_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audio_8_고양이_test_spec_augment_frequency_masked.wav,고양이
-audio_test_augmented/audio_10_고양이_test_random_1590Hz.wav,고양이
+audio_test_augmented/audiotest_8_강아지_speed_0.9.wav,강아지
+audio_test_augmented/test_4_고양이_speed_0.9.wav,고양이
 audio_test_augmented/test_9_고양이_step.wav,고양이
 audio_test_augmented/audiotest_10_고양이_noise_reduced.wav,고양이
-audio_test_augmented/audio_6_고양이_test_reverb_0.wav,고양이
 audio_test_augmented/test_3_고양이_spec_augment_frequency_masked.wav,고양이
+audio_test_augmented/test_6_고양이_reverb.wav,고양이
 audio_test_augmented/audiotest_10_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audio_6_고양이_test_mixer_talking.wav,고양이
 audio_test_augmented/audio_6_강아지_test_mixer_breathing.wav,강아지
+audio_test_augmented/audio_0_고양이_test_speed_1.1.wav,고양이
+audio_test_augmented/test_2_강아지_random_3004Hz.wav,강아지
 audio_test_augmented/audio_10_강아지_test_mixer_crying baby.wav,강아지
 audio_test_augmented/audio_6_고양이_test_mixer_breathing.wav,고양이
 audio_test_augmented/audio_2_강아지_test_mixer_talking.wav,강아지
@@ -398,49 +406,63 @@ audio_test_augmented/audio_2_고양이_test_mixer_coughing.wav,ᄀ�
 audio_test_augmented/audiotest_7_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_6_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/test_4_강아지_mixer_cooking.wav,강아지
+audio_test_augmented/test_1_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/test_7_강아지_noise_reduced.wav,강아지
 audio_test_augmented/audio_4_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_1_강아지_speed_1.2.wav,강아지
-audio_test_augmented/audio_8_강아지_test_reverb_2.wav,강아지
 audio_test_augmented/test_7_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_8_고양이_mixer_eating.wav,고양이
+audio_test_augmented/audiotest_7_강아지_reverb.wav,강아지
 audio_test_augmented/audio_9_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audio_9_강아지_test_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_6_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audio_10_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/test_10_강아지_specswap.wav,강아지
-audio_test_augmented/audio_6_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/audio_8_강아지_test_mixer_cooking.wav,강아지
 audio_test_augmented/audiotest_8_강아지_speed_0.8.wav,강아지
 audio_test_augmented/audiotest_9_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/test_4_고양이_speed_0.8.wav,고양이
 audio_test_augmented/audio_1_강아지_test_speed_1.2.wav,강아지
+audio_test_augmented/audio_4_고양이_test_speed_0.9.wav,고양이
+audio_test_augmented/test_4_강아지_reverb.wav,강아지
 audio_test_augmented/test_8_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_4_강아지_test_mixer_talking.wav,강아지
 audio_test_augmented/audio_0_고양이_test_mixer_talking.wav,고양이
+audio_test_augmented/audiotest_9_강아지_speed_1.1.wav,강아지
 audio_test_augmented/test_8_강아지_mixer_vacuum cleaner.wav,강아지
+audio_test_augmented/test_5_고양이_speed_1.1.wav,고양이
 audio_test_augmented/audio_10_강아지_test_frequency_masked.wav,강아지
+audio_test_augmented/audio_8_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audiotest_2_고양이_mixer_breathing.wav,고양이
+audio_test_augmented/audiotest_10_강아지_random_1476Hz.wav,강아지
 audio_test_augmented/audio_0_강아지_test_frequency_masked.wav,강아지
+audio_test_augmented/audiotest_1_강아지_random_2495Hz.wav,강아지
 audio_test_augmented/audio_8_강아지_test_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audio_7_강아지_test_mixer_coughing.wav,강아지
+audio_test_augmented/test_9_강아지_reverb.wav,강아지
+audio_test_augmented/test_6_고양이_random_300Hz.wav,고양이
 audio_test_augmented/test_9_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audiotest_2_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/audiotest_5_고양이_speed_1.2.wav,고양이
+audio_test_augmented/audio_2_고양이_test_reverb.wav,고양이
+audio_test_augmented/audiotest_9_고양이_random_415Hz.wav,고양이
 audio_test_augmented/audiotest_5_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_10_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_2_강아지_mixer_cooking.wav,강아지
+audio_test_augmented/audio_1_강아지_test_reverb.wav,강아지
 audio_test_augmented/test_2_고양이_step.wav,고양이
 audio_test_augmented/test_1_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_10_강아지_step.wav,강아지
 audio_test_augmented/audiotest_1_강아지_noise_reduced.wav,강아지
 audio_test_augmented/test_2_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/test_3_강아지_mixer_breathing.wav,강아지
-audio_test_augmented/audio_10_강아지_test_random_1814Hz.wav,강아지
+audio_test_augmented/test_8_고양이_random_3988Hz.wav,고양이
+audio_test_augmented/audiotest_4_고양이_speed_0.9.wav,고양이
+audio_test_augmented/audiotest_10_고양이_speed_0.9.wav,고양이
+audio_test_augmented/test_8_강아지_speed_0.9.wav,강아지
 audio_test_augmented/test_6_고양이_mixer_eating.wav,고양이
-audio_test_augmented/audio_0_강아지_test_reverb_1.wav,강아지
 audio_test_augmented/test_8_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/audiotest_7_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_10_고양이_mixer_vacuum cleaner.wav,고양이
@@ -449,28 +471,30 @@ audio_test_augmented/audio_6_강아지_test_mixer_crying baby.wav,�
 audio_test_augmented/audio_10_강아지_test_mixer_breathing.wav,강아지
 audio_test_augmented/test_2_강아지_step.wav,강아지
 audio_test_augmented/audiotest_10_고양이_step.wav,고양이
+audio_test_augmented/audio_5_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/audio_6_고양이_test_mixer_cooking.wav,고양이
 audio_test_augmented/audio_0_고양이_test_speed_1.2.wav,고양이
 audio_test_augmented/audio_2_강아지_test_mixer_cooking.wav,강아지
-audio_test_augmented/audio_8_강아지_test_reverb_0.wav,강아지
+audio_test_augmented/audio_9_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/test_10_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audio_1_고양이_test_mixer_crying baby.wav,고양이
+audio_test_augmented/audio_7_강아지_test_random_390Hz.wav,강아지
 audio_test_augmented/audiotest_6_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/audio_10_고양이_test_mixer_breathing.wav,고양이
+audio_test_augmented/test_10_고양이_speed_1.1.wav,고양이
 audio_test_augmented/audio_10_고양이_test_spec_augment_frequency_masked.wav,고양이
-audio_test_augmented/audio_2_강아지_test_random_3234Hz.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audiotest_7_고양이_mixer_breathing.wav,고양이
-audio_test_augmented/audio_3_강아지_test_random_3722Hz.wav,강아지
 audio_test_augmented/test_1_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_0_고양이_test_mixer_eating.wav,고양이
 audio_test_augmented/audio_2_강아지_test_mixer_breathing.wav,강아지
+audio_test_augmented/audio_10_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/test_8_강아지_mixer_coughing.wav,강아지
+audio_test_augmented/audiotest_1_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_9_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_4_강아지_frequency_masked.wav,강아지
 audio_test_augmented/test_3_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audio_6_강아지_test_step.wav,강아지
-audio_test_augmented/audio_8_강아지_test_reverb_1.wav,강아지
 audio_test_augmented/audio_9_강아지_test_speed_0.8.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_talking.wav,고양이
 audio_test_augmented/audio_9_고양이_test_mixer_footsteps.wav,고양이
@@ -480,7 +504,6 @@ audio_test_augmented/audio_5_강아지_test_speed_0.8.wav,강�
 audio_test_augmented/audiotest_10_강아지_specswap.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_crying baby.wav,강아지
-audio_test_augmented/audio_6_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/audio_8_강아지_test_mixer_talking.wav,강아지
 audio_test_augmented/test_1_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/test_2_고양이_mixer_eating.wav,고양이
@@ -492,71 +515,76 @@ audio_test_augmented/audiotest_9_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/test_2_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_7_고양이_test_mixer_coughing.wav,고양이
 audio_test_augmented/audiotest_5_고양이_frequency_masked.wav,고양이
+audio_test_augmented/audio_10_강아지_test_reverb.wav,강아지
 audio_test_augmented/audio_4_강아지_test_mixer_cooking.wav,강아지
-audio_test_augmented/audio_0_강아지_test_reverb_0.wav,강아지
+audio_test_augmented/audio_1_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_10_고양이_speed_0.8.wav,고양이
 audio_test_augmented/audiotest_4_고양이_speed_0.8.wav,고양이
 audio_test_augmented/audio_1_고양이_test_frequency_masked.wav,고양이
 audio_test_augmented/test_8_강아지_speed_0.8.wav,강아지
 audio_test_augmented/test_2_고양이_frequency_masked.wav,고양이
 audio_test_augmented/test_9_고양이_mixer_footsteps.wav,고양이
+audio_test_augmented/audio_10_고양이_test_random_3405Hz.wav,고양이
 audio_test_augmented/test_5_고양이_speed_1.2.wav,고양이
+audio_test_augmented/test_10_고양이_reverb.wav,고양이
 audio_test_augmented/audiotest_9_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_5_고양이_test_specswap.wav,고양이
 audio_test_augmented/audio_0_고양이_test_mixer_cooking.wav,고양이
 audio_test_augmented/test_2_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audio_2_고양이_test_step.wav,고양이
+audio_test_augmented/audiotest_5_고양이_speed_1.1.wav,고양이
+audio_test_augmented/test_9_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_4_강아지_test_mixer_eating.wav,강아지
+audio_test_augmented/audio_6_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_1_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_3_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audio_2_고양이_test_specswap.wav,고양이
+audio_test_augmented/audio_4_고양이_test_random_2754Hz.wav,고양이
 audio_test_augmented/audiotest_3_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_3_고양이_test_frequency_masked.wav,고양이
+audio_test_augmented/audiotest_2_고양이_random_2804Hz.wav,고양이
 audio_test_augmented/audio_1_고양이_test_mixer_footsteps.wav,고양이
+audio_test_augmented/test_3_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_8_고양이_test_step.wav,고양이
 audio_test_augmented/audiotest_3_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audiotest_2_강아지_specswap.wav,강아지
 audio_test_augmented/audio_0_고양이_test_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_1_강아지_test_mixer_footsteps.wav,강아지
-audio_test_augmented/test_1_강아지_reverb_1.wav,강아지
 audio_test_augmented/test_3_강아지_specswap.wav,강아지
 audio_test_augmented/audiotest_3_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/test_2_강아지_speed_0.8.wav,강아지
 audio_test_augmented/audiotest_8_고양이_mixer_breathing.wav,고양이
-audio_test_augmented/audio_7_강아지_test_reverb_0.wav,강아지
+audio_test_augmented/audio_6_고양이_test_reverb.wav,고양이
 audio_test_augmented/audiotest_7_고양이_mixer_coughing.wav,고양이
-audio_test_augmented/audiotest_4_고양이_reverb_2.wav,고양이
 audio_test_augmented/test_9_강아지_mixer_eating.wav,강아지
 audio_test_augmented/audiotest_10_고양이_mixer_eating.wav,고양이
-audio_test_augmented/audiotest_5_강아지_reverb_0.wav,강아지
+audio_test_augmented/audio_2_강아지_test_random_3334Hz.wav,강아지
 audio_test_augmented/test_6_고양이_speed_0.8.wav,고양이
-audio_test_augmented/audio_1_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/audiotest_7_고양이_speed_1.2.wav,고양이
-audio_test_augmented/test_4_강아지_reverb_0.wav,강아지
 audio_test_augmented/test_6_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/test_3_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audiotest_3_고양이_mixer_talking.wav,고양이
+audio_test_augmented/audio_0_강아지_test_random_1990Hz.wav,강아지
 audio_test_augmented/audiotest_6_고양이_mixer_Dog's barking.wav,고양이
 audio_test_augmented/audio_2_강아지_test_speed_0.8.wav,강아지
-audio_test_augmented/test_5_고양이_reverb_2.wav,고양이
+audio_test_augmented/test_7_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_3_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audiotest_9_고양이_specswap.wav,고양이
 audio_test_augmented/test_7_고양이_mixer_breathing.wav,고양이
-audio_test_augmented/audiotest_3_고양이_random_3092Hz.wav,고양이
 audio_test_augmented/audio_10_강아지_test_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audio_8_고양이_test_mixer_eating.wav,고양이
-audio_test_augmented/audio_10_강아지_test_reverb_2.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audio_7_고양이_test_speed_1.2.wav,고양이
-audio_test_augmented/test_4_강아지_reverb_1.wav,강아지
+audio_test_augmented/audio_2_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/test_6_강아지_specswap.wav,강아지
 audio_test_augmented/audio_9_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_0_강아지_test_mixer_crying baby.wav,강아지
-audio_test_augmented/audiotest_5_강아지_reverb_1.wav,강아지
+audio_test_augmented/test_6_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audiotest_7_강아지_specswap.wav,강아지
 audio_test_augmented/audiotest_8_고양이_frequency_masked.wav,고양이
 audio_test_augmented/test_8_고양이_specswap.wav,고양이
 audio_test_augmented/test_1_고양이_frequency_masked.wav,고양이
+audio_test_augmented/audio_9_고양이_test_reverb.wav,고양이
 audio_test_augmented/audio_1_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/test_4_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audiotest_5_강아지_mixer_crying baby.wav,강아지
@@ -564,18 +592,17 @@ audio_test_augmented/audio_7_고양이_test_mixer_crying baby.wav,�
 audio_test_augmented/audiotest_6_고양이_frequency_masked.wav,고양이
 audio_test_augmented/test_6_고양이_step.wav,고양이
 audio_test_augmented/test_9_고양이_mixer_Dog's barking.wav,고양이
-audio_test_augmented/audio_7_강아지_test_reverb_1.wav,강아지
 audio_test_augmented/audio_8_고양이_test_mixer_vacuum cleaner.wav,고양이
+audio_test_augmented/test_2_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audiotest_1_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/test_6_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_7_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/test_8_고양이_mixer_crying baby.wav,고양이
-audio_test_augmented/test_1_강아지_reverb_0.wav,강아지
 audio_test_augmented/audiotest_9_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/test_6_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_5_강아지_mixer_cooking.wav,강아지
+audio_test_augmented/audio_10_강아지_test_random_931Hz.wav,강아지
 audio_test_augmented/audiotest_9_강아지_frequency_masked.wav,강아지
-audio_test_augmented/audio_9_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/audiotest_2_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/test_6_강아지_step.wav,강아지
 audio_test_augmented/audiotest_7_강아지_frequency_masked.wav,강아지
@@ -584,81 +611,76 @@ audio_test_augmented/audio_8_고양이_test_noise_reduced.wav,고
 audio_test_augmented/test_5_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_6_강아지_noise_reduced.wav,강아지
 audio_test_augmented/test_4_고양이_spec_augment_frequency_masked.wav,고양이
-audio_test_augmented/audiotest_1_고양이_reverb_2.wav,고양이
 audio_test_augmented/audio_4_강아지_test_step.wav,강아지
-audio_test_augmented/audiotest_1_고양이_reverb_0.wav,고양이
+audio_test_augmented/audio_3_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audio_6_강아지_test_speed_1.2.wav,강아지
 audio_test_augmented/test_3_고양이_mixer_footsteps.wav,고양이
-audio_test_augmented/audio_9_고양이_test_reverb_0.wav,고양이
+audio_test_augmented/audiotest_3_강아지_speed_1.1.wav,강아지
 audio_test_augmented/test_3_강아지_speed_1.2.wav,강아지
-audio_test_augmented/test_3_고양이_random_651Hz.wav,고양이
 audio_test_augmented/audiotest_3_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_6_강아지_test_noise_reduced.wav,강아지
+audio_test_augmented/audiotest_9_강아지_reverb.wav,강아지
+audio_test_augmented/audio_9_강아지_test_random_3446Hz.wav,강아지
 audio_test_augmented/audio_2_고양이_test_noise_reduced.wav,고양이
 audio_test_augmented/audio_2_강아지_test_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_3_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/test_8_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_2_강아지_speed_0.8.wav,강아지
-audio_test_augmented/test_1_강아지_reverb_2.wav,강아지
+audio_test_augmented/test_3_고양이_random_1564Hz.wav,고양이
 audio_test_augmented/audiotest_3_고양이_mixer_Dog's barking.wav,고양이
-audio_test_augmented/test_3_강아지_random_2439Hz.wav,강아지
+audio_test_augmented/audiotest_4_강아지_reverb.wav,강아지
 audio_test_augmented/audio_10_강아지_test_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_6_고양이_speed_0.8.wav,고양이
-audio_test_augmented/audiotest_4_고양이_reverb_1.wav,고양이
 audio_test_augmented/audiotest_6_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_6_고양이_specswap.wav,고양이
 audio_test_augmented/test_7_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/test_10_강아지_noise_reduced.wav,강아지
 audio_test_augmented/test_9_강아지_specswap.wav,강아지
-audio_test_augmented/audio_1_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/audiotest_8_강아지_specswap.wav,강아지
 audio_test_augmented/audiotest_3_강아지_mixer_eating.wav,강아지
 audio_test_augmented/test_3_강아지_mixer_cooking.wav,강아지
+audio_test_augmented/audiotest_7_고양이_speed_1.1.wav,고양이
 audio_test_augmented/audio_0_고양이_test_step.wav,고양이
-audio_test_augmented/audio_10_강아지_test_reverb_0.wav,강아지
+audio_test_augmented/test_10_강아지_random_1330Hz.wav,강아지
 audio_test_augmented/test_1_강아지_mixer_eating.wav,강아지
-audio_test_augmented/test_5_고양이_reverb_1.wav,고양이
-audio_test_augmented/audio_6_강아지_test_random_849Hz.wav,강아지
 audio_test_augmented/test_7_고양이_specswap.wav,고양이
 audio_test_augmented/audiotest_6_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/test_7_고양이_speed_1.2.wav,고양이
 audio_test_augmented/test_5_고양이_spec_augment_frequency_masked.wav,고양이
+audio_test_augmented/test_7_강아지_reverb.wav,강아지
 audio_test_augmented/test_10_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/audiotest_3_고양이_mixer_cooking.wav,고양이
-audio_test_augmented/audio_0_강아지_test_random_1872Hz.wav,강아지
 audio_test_augmented/audio_10_고양이_test_mixer_Dog's barking.wav,고양이
-audio_test_augmented/test_5_고양이_reverb_0.wav,고양이
-audio_test_augmented/audio_10_강아지_test_reverb_1.wav,강아지
-audio_test_augmented/test_4_강아지_reverb_2.wav,강아지
+audio_test_augmented/audio_7_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/audio_4_강아지_test_specswap.wav,강아지
 audio_test_augmented/audio_4_고양이_test_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_7_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/test_7_고양이_mixer_crying baby.wav,고양이
-audio_test_augmented/audiotest_5_강아지_reverb_2.wav,강아지
-audio_test_augmented/audio_1_고양이_test_reverb_0.wav,고양이
+audio_test_augmented/audiotest_6_고양이_reverb.wav,고양이
 audio_test_augmented/audio_0_강아지_test_noise_reduced.wav,강아지
+audio_test_augmented/audio_5_강아지_test_reverb.wav,강아지
 audio_test_augmented/audiotest_2_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_4_고양이_step.wav,고양이
-audio_test_augmented/audiotest_4_고양이_reverb_0.wav,고양이
 audio_test_augmented/audio_3_강아지_test_mixer_eating.wav,강아지
-audio_test_augmented/audiotest_6_강아지_random_1782Hz.wav,강아지
+audio_test_augmented/audiotest_6_고양이_speed_0.9.wav,고양이
 audio_test_augmented/test_9_강아지_mixer_breathing.wav,강아지
-audio_test_augmented/audio_7_강아지_test_reverb_2.wav,강아지
+audio_test_augmented/test_8_고양이_reverb.wav,고양이
 audio_test_augmented/test_8_강아지_noise_reduced.wav,강아지
 audio_test_augmented/test_2_고양이_specswap.wav,고양이
 audio_test_augmented/audiotest_6_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audio_7_고양이_test_mixer_eating.wav,고양이
 audio_test_augmented/audio_5_고양이_test_mixer_footsteps.wav,고양이
+audio_test_augmented/audiotest_2_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audiotest_8_고양이_noise_reduced.wav,고양이
+audio_test_augmented/test_5_고양이_reverb.wav,고양이
+audio_test_augmented/audio_4_강아지_test_random_886Hz.wav,강아지
 audio_test_augmented/test_5_강아지_mixer_eating.wav,강아지
 audio_test_augmented/test_2_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/test_3_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/audiotest_5_강아지_mixer_talking.wav,강아지
-audio_test_augmented/audio_9_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/test_5_고양이_mixer_talking.wav,고양이
 audio_test_augmented/test_2_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/test_9_강아지_mixer_Dog's barking.wav,강아지
-audio_test_augmented/audiotest_1_고양이_reverb_1.wav,고양이
 audio_test_augmented/audio_3_고양이_test_speed_0.8.wav,고양이
 audio_test_augmented/audiotest_3_고양이_specswap.wav,고양이
 audio_test_augmented/audio_5_강아지_test_mixer_footsteps.wav,강아지
@@ -666,73 +688,59 @@ audio_test_augmented/audiotest_4_강아지_step.wav,강아지
 audio_test_augmented/audiotest_7_강아지_mixer_eating.wav,강아지
 audio_test_augmented/audio_7_강아지_test_mixer_cooking.wav,강아지
 audio_test_augmented/audio_10_강아지_test_step.wav,강아지
-audio_test_augmented/test_7_강아지_reverb_2.wav,강아지
-audio_test_augmented/audiotest_9_강아지_reverb_0.wav,강아지
 audio_test_augmented/audio_5_강아지_test_specswap.wav,강아지
-audio_test_augmented/audiotest_8_고양이_reverb_2.wav,고양이
 audio_test_augmented/audio_0_강아지_test_spec_augment_frequency_masked.wav,강아지
-audio_test_augmented/test_6_고양이_reverb_0.wav,고양이
-audio_test_augmented/test_9_고양이_reverb_2.wav,고양이
 audio_test_augmented/audiotest_6_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audio_6_고양이_test_mixer_coughing.wav,고양이
+audio_test_augmented/audiotest_9_고양이_speed_0.9.wav,고양이
 audio_test_augmented/test_1_강아지_frequency_masked.wav,강아지
+audio_test_augmented/test_5_강아지_speed_0.9.wav,강아지
 audio_test_augmented/test_5_고양이_mixer_Dog's barking.wav,고양이
-audio_test_augmented/audiotest_7_고양이_reverb_0.wav,고양이
+audio_test_augmented/audio_0_고양이_test_reverb.wav,고양이
 audio_test_augmented/audiotest_8_강아지_frequency_masked.wav,강아지
-audio_test_augmented/audiotest_6_강아지_reverb_2.wav,강아지
+audio_test_augmented/test_4_강아지_random_1968Hz.wav,강아지
 audio_test_augmented/audiotest_8_강아지_step.wav,강아지
-audio_test_augmented/test_8_강아지_reverb_0.wav,강아지
 audio_test_augmented/audio_3_고양이_test_mixer_cooking.wav,고양이
 audio_test_augmented/test_1_고양이_step.wav,고양이
-audio_test_augmented/audio_0_고양이_test_reverb_0.wav,고양이
-audio_test_augmented/test_10_고양이_random_2320Hz.wav,고양이
+audio_test_augmented/test_1_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_4_강아지_test_frequency_masked.wav,강아지
+audio_test_augmented/audio_2_고양이_test_random_697Hz.wav,고양이
+audio_test_augmented/test_10_강아지_reverb.wav,강아지
+audio_test_augmented/audio_5_강아지_test_random_3749Hz.wav,강아지
 audio_test_augmented/audiotest_9_고양이_noise_reduced.wav,고양이
 audio_test_augmented/test_9_강아지_noise_reduced.wav,강아지
 audio_test_augmented/audiotest_5_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audio_3_강아지_test_mixer_coughing.wav,강아지
-audio_test_augmented/audio_6_강아지_test_reverb_2.wav,강아지
-audio_test_augmented/test_3_고양이_reverb_1.wav,고양이
 audio_test_augmented/test_1_고양이_specswap.wav,고양이
 audio_test_augmented/audio_3_강아지_test_speed_1.2.wav,강아지
+audio_test_augmented/audio_6_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audiotest_7_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_2_고양이_mixer_eating.wav,고양이
+audio_test_augmented/test_5_고양이_random_1765Hz.wav,고양이
 audio_test_augmented/test_4_고양이_mixer_talking.wav,고양이
-audio_test_augmented/audiotest_2_고양이_reverb_1.wav,고양이
 audio_test_augmented/audiotest_8_고양이_step.wav,고양이
 audio_test_augmented/audiotest_9_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_4_강아지_mixer_talking.wav,강아지
-audio_test_augmented/audio_8_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/audiotest_9_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_10_강아지_test_mixer_talking.wav,강아지
 audio_test_augmented/test_1_강아지_step.wav,강아지
 audio_test_augmented/audiotest_2_고양이_mixer_crying baby.wav,고양이
-audio_test_augmented/audio_8_고양이_test_reverb_0.wav,고양이
-audio_test_augmented/audiotest_3_강아지_reverb_2.wav,강아지
 audio_test_augmented/audio_1_고양이_test_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_5_고양이_test_mixer_cooking.wav,고양이
-audio_test_augmented/audiotest_2_고양이_reverb_0.wav,고양이
 audio_test_augmented/audiotest_10_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_3_강아지_mixer_coughing.wav,강아지
-audio_test_augmented/audio_1_강아지_test_random_2090Hz.wav,강아지
-audio_test_augmented/test_3_고양이_reverb_0.wav,고양이
 audio_test_augmented/audio_6_고양이_test_speed_0.8.wav,고양이
 audio_test_augmented/test_7_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audio_1_강아지_test_mixer_cooking.wav,강아지
-audio_test_augmented/audio_4_강아지_test_random_3572Hz.wav,강아지
 audio_test_augmented/audiotest_4_강아지_mixer_footsteps.wav,강아지
-audio_test_augmented/test_2_강아지_reverb_2.wav,강아지
 audio_test_augmented/test_1_고양이_speed_0.8.wav,고양이
-audio_test_augmented/audio_0_고양이_test_reverb_1.wav,고양이
-audio_test_augmented/test_8_강아지_reverb_1.wav,강아지
 audio_test_augmented/test_1_고양이_mixer_breathing.wav,고양이
-audio_test_augmented/audiotest_7_고양이_reverb_1.wav,고양이
 audio_test_augmented/audiotest_5_고양이_specswap.wav,고양이
+audio_test_augmented/audio_2_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/audiotest_9_고양이_speed_0.8.wav,고양이
 audio_test_augmented/test_5_강아지_speed_0.8.wav,강아지
 audio_test_augmented/audio_8_고양이_test_frequency_masked.wav,고양이
 audio_test_augmented/audio_0_고양이_test_mixer_breathing.wav,고양이
-audio_test_augmented/test_6_고양이_reverb_1.wav,고양이
 audio_test_augmented/test_4_고양이_specswap.wav,고양이
 audio_test_augmented/test_1_강아지_noise_reduced.wav,강아지
 audio_test_augmented/audiotest_2_고양이_mixer_cooking.wav,고양이
@@ -742,87 +750,82 @@ audio_test_augmented/test_8_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audiotest_10_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audiotest_4_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_0_강아지_test_mixer_breathing.wav,강아지
+audio_test_augmented/audiotest_8_고양이_speed_1.1.wav,고양이
 audio_test_augmented/audiotest_6_강아지_mixer_crying baby.wav,강아지
-audio_test_augmented/audiotest_9_강아지_reverb_1.wav,강아지
+audio_test_augmented/test_4_강아지_speed_1.1.wav,강아지
 audio_test_augmented/test_2_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audiotest_1_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_6_고양이_mixer_eating.wav,고양이
-audio_test_augmented/test_7_강아지_reverb_1.wav,강아지
 audio_test_augmented/test_5_강아지_specswap.wav,강아지
 audio_test_augmented/audio_4_고양이_test_mixer_breathing.wav,고양이
 audio_test_augmented/audio_2_고양이_test_mixer_crying baby.wav,고양이
 audio_test_augmented/audio_7_강아지_test_mixer_talking.wav,강아지
 audio_test_augmented/audio_6_강아지_test_mixer_coughing.wav,강아지
-audio_test_augmented/audiotest_8_고양이_reverb_1.wav,고양이
 audio_test_augmented/test_5_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_2_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audio_5_강아지_test_mixer_crying baby.wav,강아지
 audio_test_augmented/test_6_강아지_mixer_coughing.wav,강아지
-audio_test_augmented/test_9_고양이_reverb_1.wav,고양이
 audio_test_augmented/audio_7_강아지_test_speed_0.8.wav,강아지
-audio_test_augmented/audiotest_6_강아지_reverb_1.wav,강아지
 audio_test_augmented/audiotest_4_강아지_specswap.wav,강아지
 audio_test_augmented/audio_4_강아지_test_mixer_breathing.wav,강아지
 audio_test_augmented/audio_3_고양이_test_mixer_talking.wav,고양이
+audio_test_augmented/audiotest_5_강아지_speed_0.9.wav,강아지
+audio_test_augmented/audiotest_7_고양이_reverb.wav,고양이
+audio_test_augmented/test_9_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audiotest_3_고양이_step.wav,고양이
 audio_test_augmented/audio_9_고양이_test_mixer_crying baby.wav,고양이
-audio_test_augmented/test_2_강아지_reverb_0.wav,강아지
 audio_test_augmented/test_10_강아지_speed_0.8.wav,강아지
 audio_test_augmented/test_8_고양이_mixer_eating.wav,고양이
 audio_test_augmented/test_5_고양이_mixer_footsteps.wav,고양이
-audio_test_augmented/test_3_고양이_reverb_2.wav,고양이
-audio_test_augmented/audio_6_강아지_test_reverb_1.wav,강아지
+audio_test_augmented/test_9_고양이_reverb.wav,고양이
+audio_test_augmented/audio_3_강아지_test_speed_1.1.wav,강아지
+audio_test_augmented/audiotest_1_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_3_고양이_test_mixer_coughing.wav,고양이
 audio_test_augmented/test_4_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_7_강아지_noise_reduced.wav,강아지
 audio_test_augmented/audio_5_고양이_test_frequency_masked.wav,고양이
-audio_test_augmented/audiotest_2_고양이_reverb_2.wav,고양이
-audio_test_augmented/audiotest_3_강아지_reverb_0.wav,강아지
-audio_test_augmented/audio_8_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/audio_10_강아지_test_mixer_cooking.wav,강아지
 audio_test_augmented/audio_9_강아지_test_mixer_Dog's barking.wav,강아지
 audio_test_augmented/test_7_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_3_강아지_step.wav,강아지
 audio_test_augmented/audiotest_4_강아지_mixer_cooking.wav,강아지
+audio_test_augmented/test_4_고양이_reverb.wav,고양이
+audio_test_augmented/audiotest_8_강아지_reverb.wav,강아지
 audio_test_augmented/audio_5_고양이_test_mixer_talking.wav,고양이
 audio_test_augmented/audio_4_고양이_test_mixer_eating.wav,고양이
 audio_test_augmented/audiotest_10_고양이_spec_augment_frequency_masked.wav,고양이
-audio_test_augmented/audiotest_3_강아지_reverb_1.wav,강아지
 audio_test_augmented/audio_7_고양이_test_step.wav,고양이
 audio_test_augmented/audiotest_1_강아지_specswap.wav,강아지
 audio_test_augmented/audio_3_고양이_test_specswap.wav,고양이
-audio_test_augmented/audio_5_강아지_test_random_1784Hz.wav,강아지
-audio_test_augmented/audio_6_강아지_test_reverb_0.wav,강아지
 audio_test_augmented/audiotest_1_고양이_speed_0.8.wav,고양이
 audio_test_augmented/audiotest_10_강아지_noise_reduced.wav,강아지
+audio_test_augmented/audio_3_강아지_test_random_349Hz.wav,강아지
 audio_test_augmented/test_4_고양이_mixer_breathing.wav,고양이
+audio_test_augmented/audiotest_5_강아지_reverb.wav,강아지
 audio_test_augmented/test_10_강아지_step.wav,강아지
 audio_test_augmented/audio_9_고양이_test_mixer_Dog's barking.wav,고양이
+audio_test_augmented/audiotest_8_강아지_random_2007Hz.wav,강아지
+audio_test_augmented/test_10_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audio_1_강아지_test_mixer_talking.wav,강아지
-audio_test_augmented/test_2_강아지_reverb_1.wav,강아지
 audio_test_augmented/audiotest_9_강아지_mixer_crying baby.wav,강아지
+audio_test_augmented/test_2_고양이_random_888Hz.wav,고양이
 audio_test_augmented/audiotest_9_고양이_mixer_vacuum cleaner.wav,고양이
-audio_test_augmented/test_8_강아지_reverb_2.wav,강아지
-audio_test_augmented/audio_0_고양이_test_reverb_2.wav,고양이
-audio_test_augmented/audiotest_4_고양이_random_3793Hz.wav,고양이
 audio_test_augmented/audiotest_5_강아지_speed_0.8.wav,강아지
 audio_test_augmented/test_9_고양이_speed_0.8.wav,고양이
-audio_test_augmented/audiotest_6_고양이_random_1176Hz.wav,고양이
-audio_test_augmented/audiotest_6_강아지_reverb_0.wav,강아지
 audio_test_augmented/test_4_고양이_mixer_crying baby.wav,고양이
+audio_test_augmented/audio_7_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/audio_2_고양이_test_speed_1.2.wav,고양이
-audio_test_augmented/audiotest_7_고양이_reverb_2.wav,고양이
 audio_test_augmented/audiotest_1_강아지_mixer_footsteps.wav,강아지
-audio_test_augmented/test_9_고양이_reverb_0.wav,고양이
+audio_test_augmented/audio_3_강아지_test_reverb.wav,강아지
 audio_test_augmented/audiotest_10_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audio_9_고양이_test_mixer_cooking.wav,고양이
+audio_test_augmented/test_6_강아지_reverb.wav,강아지
 audio_test_augmented/audio_3_강아지_test_step.wav,강아지
-audio_test_augmented/audio_7_고양이_test_random_3573Hz.wav,고양이
-audio_test_augmented/test_6_고양이_reverb_2.wav,고양이
+audio_test_augmented/audiotest_10_강아지_speed_1.1.wav,강아지
+audio_test_augmented/audiotest_4_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_2_고양이_mixer_talking.wav,고양이
+audio_test_augmented/test_8_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_10_고양이_step.wav,고양이
-audio_test_augmented/audiotest_8_고양이_reverb_0.wav,고양이
-audio_test_augmented/audiotest_9_강아지_reverb_2.wav,강아지
 audio_test_augmented/test_4_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_9_강아지_test_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_8_고양이_speed_1.2.wav,고양이
@@ -830,11 +833,12 @@ audio_test_augmented/audio_0_강아지_test_mixer_eating.wav,가�
 audio_test_augmented/audiotest_9_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_8_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/test_2_강아지_mixer_talking.wav,강아지
-audio_test_augmented/test_7_강아지_reverb_0.wav,강아지
+audio_test_augmented/audio_0_고양이_test_random_2201Hz.wav,고양이
 audio_test_augmented/audio_5_고양이_test_speed_1.2.wav,고양이
 audio_test_augmented/test_2_고양이_mixer_vacuum cleaner.wav,고양이
-audio_test_augmented/test_4_고양이_random_1226Hz.wav,고양이
-audio_test_augmented/audio_9_강아지_test_reverb_1.wav,강아지
+audio_test_augmented/audio_0_강아지_test_speed_0.9.wav,강아지
+audio_test_augmented/audiotest_6_강아지_reverb.wav,강아지
+audio_test_augmented/test_2_고양이_speed_1.1.wav,고양이
 audio_test_augmented/audiotest_5_고양이_mixer_talking.wav,고양이
 audio_test_augmented/audio_9_강아지_test_step.wav,강아지
 audio_test_augmented/audio_8_강아지_test_spec_augment_frequency_masked.wav,강아지
@@ -842,35 +846,36 @@ audio_test_augmented/test_9_고양이_spec_augment_frequency_masked.wav,고양�
 audio_test_augmented/test_5_강아지_mixer_talking.wav,강아지
 audio_test_augmented/test_8_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_2_고양이_speed_1.2.wav,고양이
+audio_test_augmented/audio_7_고양이_test_random_418Hz.wav,고양이
 audio_test_augmented/test_8_고양이_noise_reduced.wav,고양이
 audio_test_augmented/test_3_고양이_speed_0.8.wav,고양이
-audio_test_augmented/audio_7_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/test_7_강아지_mixer_eating.wav,강아지
 audio_test_augmented/test_2_강아지_mixer_vacuum cleaner.wav,강아지
-audio_test_augmented/audio_4_고양이_test_random_1998Hz.wav,고양이
 audio_test_augmented/audio_9_고양이_test_speed_1.2.wav,고양이
+audio_test_augmented/audiotest_6_고양이_random_475Hz.wav,고양이
 audio_test_augmented/audio_5_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_8_강아지_noise_reduced.wav,강아지
-audio_test_augmented/test_10_고양이_reverb_0.wav,고양이
 audio_test_augmented/audiotest_5_강아지_mixer_eating.wav,강아지
 audio_test_augmented/audio_7_고양이_test_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_1_강아지_mixer_vacuum cleaner.wav,강아지
+audio_test_augmented/test_5_강아지_reverb.wav,강아지
 audio_test_augmented/audiotest_5_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/test_7_강아지_speed_0.8.wav,강아지
-audio_test_augmented/audio_1_강아지_test_reverb_0.wav,강아지
-audio_test_augmented/audio_10_고양이_test_reverb_1.wav,고양이
+audio_test_augmented/test_8_강아지_reverb.wav,강아지
+audio_test_augmented/test_6_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_6_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audiotest_1_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_3_강아지_test_noise_reduced.wav,강아지
 audio_test_augmented/audio_4_고양이_test_specswap.wav,고양이
 audio_test_augmented/audiotest_10_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/test_3_고양이_mixer_cooking.wav,고양이
+audio_test_augmented/audio_4_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_7_고양이_step.wav,고양이
 audio_test_augmented/test_10_고양이_mixer_Dog's barking.wav,고양이
-audio_test_augmented/audio_9_고양이_test_random_3214Hz.wav,고양이
+audio_test_augmented/audio_4_고양이_test_reverb.wav,고양이
 audio_test_augmented/audiotest_3_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audio_9_고양이_test_spec_augment_frequency_masked.wav,고양이
-audio_test_augmented/audio_10_고양이_test_reverb_0.wav,고양이
+audio_test_augmented/audiotest_4_고양이_reverb.wav,고양이
 audio_test_augmented/audio_7_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/audiotest_1_강아지_mixer_eating.wav,강아지
@@ -879,34 +884,35 @@ audio_test_augmented/test_10_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_7_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audio_7_고양이_test_mixer_footsteps.wav,고양이
 audio_test_augmented/test_8_강아지_mixer_crying baby.wav,강아지
+audio_test_augmented/test_7_강아지_speed_0.9.wav,강아지
+audio_test_augmented/audiotest_9_고양이_reverb.wav,고양이
 audio_test_augmented/audiotest_1_강아지_mixer_crying baby.wav,강아지
-audio_test_augmented/audio_1_강아지_test_reverb_1.wav,강아지
 audio_test_augmented/test_3_강아지_mixer_eating.wav,강아지
-audio_test_augmented/audiotest_1_고양이_random_2304Hz.wav,고양이
+audio_test_augmented/audio_8_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/audio_8_강아지_test_mixer_crying baby.wav,강아지
 audio_test_augmented/audio_7_고양이_test_frequency_masked.wav,고양이
-audio_test_augmented/test_10_고양이_reverb_1.wav,고양이
 audio_test_augmented/audiotest_5_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/audiotest_7_강아지_step.wav,강아지
 audio_test_augmented/audiotest_10_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audio_5_강아지_test_noise_reduced.wav,강아지
 audio_test_augmented/audiotest_5_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/test_1_강아지_mixer_footsteps.wav,강아지
-audio_test_augmented/audiotest_10_고양이_reverb_2.wav,고양이
+audio_test_augmented/test_7_고양이_reverb.wav,고양이
+audio_test_augmented/test_3_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_4_고양이_test_mixer_crying baby.wav,고양이
 audio_test_augmented/audiotest_2_고양이_mixer_Dog's barking.wav,고양이
+audio_test_augmented/audio_1_고양이_test_random_2302Hz.wav,고양이
+audio_test_augmented/audiotest_3_강아지_random_1363Hz.wav,강아지
 audio_test_augmented/test_10_고양이_mixer_coughing.wav,고양이
-audio_test_augmented/test_5_강아지_random_2092Hz.wav,강아지
 audio_test_augmented/test_1_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audio_1_고양이_test_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_9_고양이_mixer_coughing.wav,고양이
-audio_test_augmented/audio_9_강아지_test_reverb_0.wav,강아지
 audio_test_augmented/audio_0_강아지_test_speed_0.8.wav,강아지
 audio_test_augmented/audio_8_강아지_test_mixer_eating.wav,강아지
 audio_test_augmented/audio_3_강아지_test_mixer_crying baby.wav,강아지
-audio_test_augmented/audio_9_강아지_test_reverb_2.wav,강아지
 audio_test_augmented/test_3_고양이_frequency_masked.wav,고양이
 audio_test_augmented/test_2_고양이_speed_1.2.wav,고양이
+audio_test_augmented/audio_5_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/audiotest_5_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_4_고양이_frequency_masked.wav,고양이
 audio_test_augmented/test_6_강아지_noise_reduced.wav,강아지
@@ -914,35 +920,36 @@ audio_test_augmented/audio_5_고양이_test_step.wav,고양
 audio_test_augmented/audiotest_6_고양이_noise_reduced.wav,고양이
 audio_test_augmented/test_5_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audio_8_고양이_test_mixer_Dog's barking.wav,고양이
-audio_test_augmented/audiotest_10_고양이_reverb_0.wav,고양이
+audio_test_augmented/audiotest_2_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_8_고양이_mixer_Dog's barking.wav,고양이
-audio_test_augmented/audio_7_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/audio_10_강아지_test_speed_0.8.wav,강아지
 audio_test_augmented/audio_10_고양이_test_noise_reduced.wav,고양이
-audio_test_augmented/test_5_고양이_random_1130Hz.wav,고양이
 audio_test_augmented/audiotest_3_고양이_speed_0.8.wav,고양이
+audio_test_augmented/audio_9_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/audio_10_강아지_test_spec_augment_frequency_masked.wav,강아지
-audio_test_augmented/audio_2_고양이_test_random_2683Hz.wav,고양이
 audio_test_augmented/test_2_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audio_3_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_4_강아지_mixer_coughing.wav,강아지
+audio_test_augmented/audiotest_6_강아지_random_2681Hz.wav,강아지
 audio_test_augmented/audiotest_5_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_7_강아지_speed_0.8.wav,강아지
 audio_test_augmented/test_5_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audio_8_강아지_test_mixer_breathing.wav,강아지
-audio_test_augmented/audio_10_고양이_test_reverb_2.wav,고양이
+audio_test_augmented/audio_7_강아지_test_reverb.wav,강아지
 audio_test_augmented/test_6_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_8_고양이_test_mixer_breathing.wav,고양이
+audio_test_augmented/audiotest_6_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_3_고양이_test_mixer_footsteps.wav,고양이
 audio_test_augmented/audio_1_고양이_test_speed_0.8.wav,고양이
 audio_test_augmented/audiotest_8_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audio_1_강아지_test_step.wav,강아지
-audio_test_augmented/audiotest_5_고양이_random_2660Hz.wav,고양이
 audio_test_augmented/test_3_고양이_mixer_talking.wav,고양이
 audio_test_augmented/test_5_고양이_step.wav,고양이
+audio_test_augmented/audio_1_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audio_4_강아지_test_speed_1.2.wav,강아지
 audio_test_augmented/test_8_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_6_강아지_test_frequency_masked.wav,강아지
+audio_test_augmented/audio_8_강아지_test_reverb.wav,강아지
 audio_test_augmented/test_3_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/audiotest_3_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audiotest_9_강아지_mixer_eating.wav,강아지
@@ -951,142 +958,132 @@ audio_test_augmented/audiotest_5_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/test_10_고양이_mixer_eating.wav,고양이
 audio_test_augmented/audio_9_강아지_test_noise_reduced.wav,강아지
 audio_test_augmented/audiotest_5_고양이_mixer_vacuum cleaner.wav,고양이
+audio_test_augmented/audiotest_7_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audio_8_강아지_test_speed_1.2.wav,강아지
 audio_test_augmented/audio_7_강아지_test_mixer_eating.wav,강아지
-audio_test_augmented/audio_1_강아지_test_reverb_2.wav,강아지
 audio_test_augmented/test_10_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_footsteps.wav,강아지
-audio_test_augmented/audiotest_9_고양이_random_3007Hz.wav,고양이
-audio_test_augmented/test_10_고양이_reverb_2.wav,고양이
 audio_test_augmented/audio_3_고양이_test_mixer_eating.wav,고양이
+audio_test_augmented/audiotest_3_고양이_speed_0.9.wav,고양이
 audio_test_augmented/test_5_강아지_step.wav,강아지
 audio_test_augmented/audiotest_1_고양이_mixer_breathing.wav,고양이
+audio_test_augmented/audio_10_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/audio_8_강아지_test_mixer_Dog's barking.wav,강아지
-audio_test_augmented/audio_7_고양이_test_reverb_0.wav,고양이
-audio_test_augmented/test_6_강아지_random_3283Hz.wav,강아지
 audio_test_augmented/test_6_고양이_mixer_vacuum cleaner.wav,고양이
-audio_test_augmented/audiotest_10_고양이_reverb_1.wav,고양이
+audio_test_augmented/audiotest_5_고양이_random_3585Hz.wav,고양이
 audio_test_augmented/audio_2_강아지_test_specswap.wav,강아지
 audio_test_augmented/test_7_강아지_mixer_crying baby.wav,강아지
+audio_test_augmented/test_3_강아지_random_2305Hz.wav,강아지
 audio_test_augmented/test_6_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_2_강아지_mixer_Dog's barking.wav,강아지
-audio_test_augmented/audiotest_9_강아지_random_2836Hz.wav,강아지
-audio_test_augmented/audiotest_2_강아지_reverb_0.wav,강아지
+audio_test_augmented/audio_9_고양이_test_random_833Hz.wav,고양이
+audio_test_augmented/audiotest_1_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audio_0_강아지_test_mixer_cooking.wav,강아지
 audio_test_augmented/audio_5_강아지_test_mixer_vacuum cleaner.wav,강아지
-audio_test_augmented/audio_2_고양이_test_reverb_0.wav,고양이
 audio_test_augmented/audio_2_고양이_test_mixer_Dog's barking.wav,고양이
 audio_test_augmented/test_5_고양이_mixer_crying baby.wav,고양이
-audio_test_augmented/audiotest_3_고양이_reverb_2.wav,고양이
 audio_test_augmented/audiotest_2_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/test_10_강아지_frequency_masked.wav,강아지
 audio_test_augmented/test_10_고양이_speed_0.8.wav,고양이
+audio_test_augmented/audio_10_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audiotest_1_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audio_8_강아지_test_mixer_coughing.wav,강아지
 audio_test_augmented/audio_7_강아지_test_specswap.wav,강아지
-audio_test_augmented/audio_1_고양이_test_random_1540Hz.wav,고양이
 audio_test_augmented/audio_5_강아지_test_frequency_masked.wav,강아지
-audio_test_augmented/test_2_고양이_reverb_2.wav,고양이
 audio_test_augmented/audiotest_2_고양이_mixer_vacuum cleaner.wav,고양이
-audio_test_augmented/test_3_강아지_reverb_0.wav,강아지
 audio_test_augmented/audio_1_강아지_test_mixer_eating.wav,강아지
-audio_test_augmented/audiotest_10_강아지_random_1739Hz.wav,강아지
 audio_test_augmented/audio_4_고양이_test_mixer_cooking.wav,고양이
+audio_test_augmented/audio_1_강아지_test_random_2392Hz.wav,강아지
 audio_test_augmented/audiotest_5_강아지_specswap.wav,강아지
-audio_test_augmented/audiotest_7_강아지_reverb_1.wav,강아지
 audio_test_augmented/audio_5_고양이_test_mixer_eating.wav,고양이
+audio_test_augmented/audio_1_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/audio_4_고양이_test_speed_1.2.wav,고양이
 audio_test_augmented/test_6_고양이_mixer_talking.wav,고양이
 audio_test_augmented/audio_5_고양이_test_mixer_Dog's barking.wav,고양이
 audio_test_augmented/test_4_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/test_1_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_4_강아지_test_mixer_vacuum cleaner.wav,강아지
-audio_test_augmented/test_8_고양이_reverb_1.wav,고양이
 audio_test_augmented/test_2_강아지_mixer_eating.wav,강아지
+audio_test_augmented/audio_4_강아지_test_reverb.wav,강아지
 audio_test_augmented/audiotest_6_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audio_8_고양이_test_mixer_talking.wav,고양이
 audio_test_augmented/test_1_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/test_8_강아지_mixer_cooking.wav,강아지
-audio_test_augmented/audiotest_7_고양이_random_3309Hz.wav,고양이
 audio_test_augmented/test_3_강아지_spec_augment_frequency_masked.wav,강아지
-audio_test_augmented/audiotest_9_고양이_reverb_1.wav,고양이
 audio_test_augmented/test_1_강아지_mixer_crying baby.wav,강아지
+audio_test_augmented/audiotest_5_고양이_speed_0.9.wav,고양이
+audio_test_augmented/test_9_강아지_speed_0.9.wav,강아지
 audio_test_augmented/test_1_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/test_4_강아지_specswap.wav,강아지
-audio_test_augmented/test_6_강아지_reverb_1.wav,강아지
-audio_test_augmented/audio_4_강아지_test_reverb_2.wav,강아지
+audio_test_augmented/test_1_강아지_random_2795Hz.wav,강아지
 audio_test_augmented/audio_7_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_8_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/audio_8_고양이_test_speed_1.2.wav,고양이
 audio_test_augmented/audiotest_8_고양이_mixer_cooking.wav,고양이
-audio_test_augmented/audiotest_3_강아지_random_1126Hz.wav,강아지
-audio_test_augmented/audiotest_8_강아지_reverb_2.wav,강아지
+audio_test_augmented/test_7_강아지_random_3972Hz.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audio_2_고양이_test_mixer_cooking.wav,고양이
+audio_test_augmented/test_9_강아지_random_2549Hz.wav,강아지
 audio_test_augmented/audio_5_강아지_test_mixer_Dog's barking.wav,강아지
-audio_test_augmented/test_6_강아지_reverb_0.wav,강아지
-audio_test_augmented/test_7_고양이_reverb_2.wav,고양이
 audio_test_augmented/audiotest_5_고양이_speed_0.8.wav,고양이
 audio_test_augmented/test_9_강아지_speed_0.8.wav,강아지
-audio_test_augmented/audiotest_9_고양이_reverb_0.wav,고양이
 audio_test_augmented/audiotest_4_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_9_고양이_step.wav,고양이
+audio_test_augmented/audiotest_7_고양이_random_2174Hz.wav,고양이
 audio_test_augmented/audiotest_6_고양이_spec_augment_frequency_masked.wav,고양이
-audio_test_augmented/audiotest_6_고양이_reverb_2.wav,고양이
+audio_test_augmented/audiotest_7_강아지_random_2143Hz.wav,강아지
 audio_test_augmented/audiotest_10_고양이_mixer_Dog's barking.wav,고양이
 audio_test_augmented/audiotest_4_강아지_spec_augment_frequency_masked.wav,강아지
-audio_test_augmented/test_8_고양이_reverb_0.wav,고양이
 audio_test_augmented/test_4_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audiotest_8_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audio_10_강아지_test_mixer_eating.wav,강아지
 audio_test_augmented/audiotest_8_고양이_mixer_coughing.wav,고양이
-audio_test_augmented/test_9_강아지_reverb_2.wav,강아지
 audio_test_augmented/audio_6_강아지_test_mixer_cooking.wav,강아지
+audio_test_augmented/audiotest_4_고양이_speed_1.1.wav,고양이
+audio_test_augmented/audiotest_10_고양이_speed_1.1.wav,고양이
+audio_test_augmented/test_8_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_3_고양이_test_step.wav,고양이
 audio_test_augmented/test_5_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/audio_1_강아지_test_speed_0.8.wav,강아지
 audio_test_augmented/audio_7_강아지_test_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audio_9_고양이_test_frequency_masked.wav,고양이
-audio_test_augmented/audiotest_7_강아지_reverb_0.wav,강아지
 audio_test_augmented/audio_4_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/test_3_강아지_noise_reduced.wav,강아지
+audio_test_augmented/audio_5_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/test_6_강아지_mixer_eating.wav,강아지
 audio_test_augmented/test_1_강아지_specswap.wav,강아지
-audio_test_augmented/test_3_강아지_reverb_1.wav,강아지
 audio_test_augmented/audio_7_강아지_test_step.wav,강아지
 audio_test_augmented/audio_2_강아지_test_mixer_Dog's barking.wav,강아지
-audio_test_augmented/test_9_강아지_random_3045Hz.wav,강아지
 audio_test_augmented/audiotest_3_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_9_강아지_step.wav,강아지
 audio_test_augmented/audiotest_4_강아지_mixer_eating.wav,강아지
 audio_test_augmented/audio_6_고양이_test_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_10_고양이_test_speed_0.8.wav,고양이
+audio_test_augmented/test_10_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_10_강아지_test_mixer_coughing.wav,강아지
 audio_test_augmented/test_10_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audio_6_강아지_test_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_1_고양이_mixer_Dog's barking.wav,고양이
-audio_test_augmented/audio_2_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/audio_4_고양이_test_mixer_footsteps.wav,고양이
+audio_test_augmented/audio_9_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_1_강아지_speed_0.8.wav,강아지
-audio_test_augmented/audiotest_2_강아지_reverb_1.wav,강아지
 audio_test_augmented/audio_4_강아지_test_mixer_crying baby.wav,강아지
 audio_test_augmented/audiotest_5_강아지_mixer_coughing.wav,강아지
-audio_test_augmented/audiotest_2_고양이_random_1804Hz.wav,고양이
 audio_test_augmented/audio_9_고양이_test_specswap.wav,고양이
 audio_test_augmented/audio_0_강아지_test_mixer_talking.wav,강아지
+audio_test_augmented/test_4_고양이_random_2586Hz.wav,고양이
 audio_test_augmented/audio_4_고양이_test_frequency_masked.wav,고양이
+audio_test_augmented/test_3_강아지_reverb.wav,강아지
+audio_test_augmented/audio_8_강아지_test_random_3224Hz.wav,강아지
 audio_test_augmented/audio_8_고양이_test_mixer_coughing.wav,고양이
 audio_test_augmented/audio_0_강아지_test_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_1_고양이_specswap.wav,고양이
 audio_test_augmented/audiotest_7_고양이_spec_augment_frequency_masked.wav,고양이
-audio_test_augmented/audiotest_3_고양이_reverb_1.wav,고양이
-audio_test_augmented/audiotest_8_고양이_random_1674Hz.wav,고양이
+audio_test_augmented/test_1_강아지_speed_0.9.wav,강아지
 audio_test_augmented/audio_3_고양이_test_mixer_crying baby.wav,고양이
-audio_test_augmented/audio_5_고양이_test_random_1924Hz.wav,고양이
 audio_test_augmented/audio_0_고양이_test_mixer_footsteps.wav,고양이
 audio_test_augmented/test_10_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audiotest_5_강아지_spec_augment_frequency_masked.wav,강아지
-audio_test_augmented/test_2_고양이_reverb_1.wav,고양이
 audio_test_augmented/audio_0_고양이_test_speed_0.8.wav,고양이
 audio_test_augmented/audiotest_7_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/audio_4_고양이_test_mixer_talking.wav,고양이
@@ -1094,131 +1091,130 @@ audio_test_augmented/audio_0_강아지_test_mixer_vacuum cleaner.wav
 audio_test_augmented/audiotest_9_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/test_1_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/test_1_고양이_mixer_coughing.wav,고양이
-audio_test_augmented/audiotest_7_강아지_random_2771Hz.wav,강아지
+audio_test_augmented/audio_4_고양이_test_speed_1.1.wav,고양이
+audio_test_augmented/audiotest_2_강아지_random_2416Hz.wav,강아지
 audio_test_augmented/audiotest_3_고양이_mixer_crying baby.wav,고양이
-audio_test_augmented/audiotest_7_강아지_reverb_2.wav,강아지
 audio_test_augmented/test_6_고양이_mixer_cooking.wav,고양이
-audio_test_augmented/test_9_강아지_reverb_0.wav,강아지
 audio_test_augmented/audiotest_5_강아지_noise_reduced.wav,강아지
 audio_test_augmented/audiotest_4_강아지_mixer_breathing.wav,강아지
-audio_test_augmented/test_8_고양이_reverb_2.wav,고양이
+audio_test_augmented/test_9_고양이_random_1416Hz.wav,고양이
+audio_test_augmented/audio_8_고양이_test_reverb.wav,고양이
 audio_test_augmented/audio_8_고양이_test_mixer_cooking.wav,고양이
 audio_test_augmented/test_5_고양이_noise_reduced.wav,고양이
 audio_test_augmented/audiotest_6_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audio_10_고양이_test_step.wav,고양이
-audio_test_augmented/audiotest_6_고양이_reverb_0.wav,고양이
 audio_test_augmented/audio_8_고양이_test_mixer_crying baby.wav,고양이
 audio_test_augmented/audio_1_강아지_test_mixer_vacuum cleaner.wav,강아지
-audio_test_augmented/audiotest_9_고양이_reverb_2.wav,고양이
+audio_test_augmented/audiotest_10_강아지_reverb.wav,강아지
 audio_test_augmented/audiotest_10_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audio_10_강아지_test_specswap.wav,강아지
 audio_test_augmented/test_8_강아지_mixer_talking.wav,강아지
-audio_test_augmented/test_7_고양이_reverb_0.wav,고양이
 audio_test_augmented/audiotest_8_고양이_mixer_talking.wav,고양이
-audio_test_augmented/audio_4_강아지_test_reverb_1.wav,강아지
-audio_test_augmented/test_6_강아지_reverb_2.wav,강아지
-audio_test_augmented/audiotest_8_강아지_reverb_0.wav,강아지
+audio_test_augmented/audiotest_9_강아지_speed_0.9.wav,강아지
+audio_test_augmented/test_5_고양이_speed_0.9.wav,고양이
+audio_test_augmented/audio_8_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/audiotest_8_강아지_mixer_eating.wav,강아지
-audio_test_augmented/audiotest_8_강아지_reverb_1.wav,강아지
 audio_test_augmented/test_5_고양이_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_2_고양이_test_mixer_talking.wav,고양이
 audio_test_augmented/test_10_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_9_강아지_speed_0.8.wav,강아지
 audio_test_augmented/test_5_고양이_speed_0.8.wav,고양이
-audio_test_augmented/audio_4_강아지_test_reverb_0.wav,강아지
 audio_test_augmented/audio_2_강아지_test_mixer_vacuum cleaner.wav,강아지
+audio_test_augmented/test_1_고양이_reverb.wav,고양이
 audio_test_augmented/test_5_고양이_specswap.wav,고양이
 audio_test_augmented/audiotest_10_강아지_mixer_Dog's barking.wav,강아지
-audio_test_augmented/test_7_고양이_reverb_1.wav,고양이
 audio_test_augmented/test_4_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_2_강아지_step.wav,강아지
 audio_test_augmented/audio_8_강아지_test_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_3_강아지_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_4_고양이_specswap.wav,고양이
-audio_test_augmented/audiotest_6_고양이_reverb_1.wav,고양이
 audio_test_augmented/audiotest_5_강아지_mixer_footsteps.wav,강아지
+audio_test_augmented/audio_7_고양이_test_reverb.wav,고양이
+audio_test_augmented/audiotest_8_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_Dog's barking.wav,고양이
+audio_test_augmented/test_4_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_8_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audiotest_4_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audiotest_10_고양이_speed_1.2.wav,고양이
-audio_test_augmented/test_9_강아지_reverb_1.wav,강아지
 audio_test_augmented/test_5_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audio_6_강아지_test_mixer_talking.wav,강아지
 audio_test_augmented/audio_1_고양이_test_specswap.wav,고양이
+audio_test_augmented/audiotest_2_고양이_reverb.wav,고양이
 audio_test_augmented/audiotest_6_강아지_mixer_vacuum cleaner.wav,강아지
-audio_test_augmented/test_3_강아지_reverb_2.wav,강아지
 audio_test_augmented/audio_5_강아지_test_speed_1.2.wav,강아지
+audio_test_augmented/audio_0_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/test_5_고양이_frequency_masked.wav,고양이
-audio_test_augmented/test_2_고양이_reverb_0.wav,고양이
 audio_test_augmented/audio_10_고양이_test_mixer_coughing.wav,고양이
 audio_test_augmented/audiotest_2_고양이_step.wav,고양이
 audio_test_augmented/audio_3_강아지_test_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audiotest_2_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_1_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/test_1_강아지_speed_0.8.wav,강아지
-audio_test_augmented/audiotest_3_고양이_reverb_0.wav,고양이
+audio_test_augmented/test_8_강아지_random_3316Hz.wav,강아지
 audio_test_augmented/test_2_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/test_10_강아지_mixer_talking.wav,강아지
-audio_test_augmented/audio_2_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/audiotest_6_고양이_mixer_vacuum cleaner.wav,고양이
+audio_test_augmented/test_7_고양이_random_584Hz.wav,고양이
 audio_test_augmented/audio_9_강아지_test_speed_1.2.wav,강아지
-audio_test_augmented/audiotest_2_강아지_reverb_2.wav,강아지
 audio_test_augmented/audio_2_고양이_test_mixer_eating.wav,고양이
-audio_test_augmented/audio_5_고양이_test_reverb_2.wav,고양이
 audio_test_augmented/test_5_고양이_mixer_eating.wav,고양이
 audio_test_augmented/audiotest_9_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audiotest_7_고양이_speed_0.8.wav,고양이
 audio_test_augmented/test_9_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audio_5_고양이_test_mixer_coughing.wav,고양이
 audio_test_augmented/test_6_고양이_mixer_Dog's barking.wav,고양이
+audio_test_augmented/audio_7_고양이_test_speed_0.9.wav,고양이
 audio_test_augmented/audio_2_강아지_test_speed_1.2.wav,강아지
 audio_test_augmented/audiotest_3_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/audiotest_7_고양이_mixer_eating.wav,고양이
 audio_test_augmented/audio_1_고양이_test_step.wav,고양이
 audio_test_augmented/test_6_강아지_mixer_crying baby.wav,강아지
+audio_test_augmented/test_2_고양이_reverb.wav,고양이
 audio_test_augmented/audiotest_6_강아지_step.wav,강아지
 audio_test_augmented/audio_4_강아지_test_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_1_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audiotest_7_고양이_mixer_talking.wav,고양이
 audio_test_augmented/test_10_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/audiotest_10_강아지_mixer_coughing.wav,강아지
+audio_test_augmented/audiotest_6_고양이_speed_1.1.wav,고양이
 audio_test_augmented/test_7_강아지_mixer_talking.wav,강아지
 audio_test_augmented/test_6_고양이_speed_1.2.wav,고양이
 audio_test_augmented/audiotest_1_고양이_mixer_footsteps.wav,고양이
 audio_test_augmented/audio_5_고양이_test_mixer_vacuum cleaner.wav,고양이
+audio_test_augmented/audiotest_2_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_0_고양이_test_noise_reduced.wav,고양이
 audio_test_augmented/audio_5_강아지_test_step.wav,강아지
 audio_test_augmented/test_4_강아지_mixer_breathing.wav,강아지
-audio_test_augmented/audiotest_10_강아지_reverb_2.wav,강아지
 audio_test_augmented/test_2_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/audio_6_고양이_test_specswap.wav,고양이
-audio_test_augmented/test_10_강아지_reverb_1.wav,강아지
 audio_test_augmented/audio_2_강아지_test_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/test_2_강아지_speed_1.2.wav,강아지
 audio_test_augmented/audiotest_6_고양이_step.wav,고양이
 audio_test_augmented/audio_0_강아지_test_mixer_coughing.wav,강아지
-audio_test_augmented/audio_3_강아지_test_reverb_0.wav,강아지
 audio_test_augmented/audio_4_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audiotest_3_강아지_speed_0.8.wav,강아지
+audio_test_augmented/test_5_강아지_random_3518Hz.wav,강아지
+audio_test_augmented/audiotest_1_고양이_reverb.wav,고양이
 audio_test_augmented/test_3_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audio_6_강아지_test_mixer_eating.wav,강아지
 audio_test_augmented/audio_3_강아지_test_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audio_4_강아지_test_noise_reduced.wav,강아지
 audio_test_augmented/audio_3_고양이_test_mixer_breathing.wav,고양이
 audio_test_augmented/audiotest_3_고양이_mixer_eating.wav,고양이
-audio_test_augmented/test_8_고양이_random_2259Hz.wav,고양이
+audio_test_augmented/audiotest_1_고양이_random_3102Hz.wav,고양이
 audio_test_augmented/audio_7_고양이_test_mixer_vacuum cleaner.wav,고양이
+audio_test_augmented/audio_3_고양이_test_speed_1.1.wav,고양이
 audio_test_augmented/test_1_고양이_mixer_eating.wav,고양이
 audio_test_augmented/audio_9_강아지_test_mixer_crying baby.wav,강아지
+audio_test_augmented/audiotest_3_강아지_speed_0.9.wav,강아지
+audio_test_augmented/audiotest_4_강아지_random_3763Hz.wav,강아지
 audio_test_augmented/audio_8_고양이_test_mixer_footsteps.wav,고양이
-audio_test_augmented/audio_3_강아지_test_reverb_1.wav,강아지
 audio_test_augmented/test_5_강아지_mixer_footsteps.wav,강아지
 audio_test_augmented/audiotest_2_강아지_noise_reduced.wav,강아지
 audio_test_augmented/test_1_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/audiotest_9_고양이_mixer_Dog's barking.wav,고양이
 audio_test_augmented/test_8_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audio_8_강아지_test_mixer_footsteps.wav,강아지
-audio_test_augmented/test_10_강아지_reverb_0.wav,강아지
 audio_test_augmented/audio_3_강아지_test_mixer_breathing.wav,강아지
 audio_test_augmented/audiotest_1_고양이_frequency_masked.wav,고양이
 audio_test_augmented/audio_3_고양이_test_mixer_Dog's barking.wav,고양이
@@ -1229,26 +1225,29 @@ audio_test_augmented/audio_2_강아지_test_noise_reduced.wav,가
 audio_test_augmented/audio_3_고양이_test_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/audio_6_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/test_4_강아지_spec_augment_frequency_masked.wav,강아지
-audio_test_augmented/test_7_강아지_random_2707Hz.wav,강아지
 audio_test_augmented/audiotest_2_강아지_mixer_coughing.wav,강아지
 audio_test_augmented/audio_6_고양이_test_frequency_masked.wav,고양이
 audio_test_augmented/audio_2_강아지_test_mixer_crying baby.wav,강아지
 audio_test_augmented/audio_7_고양이_test_speed_0.8.wav,고양이
 audio_test_augmented/test_6_고양이_spec_augment_frequency_masked.wav,고양이
+audio_test_augmented/audio_0_강아지_test_reverb.wav,강아지
 audio_test_augmented/test_9_강아지_frequency_masked.wav,강아지
 audio_test_augmented/test_6_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/audio_4_고양이_test_mixer_Dog's barking.wav,고양이
 audio_test_augmented/audiotest_10_고양이_mixer_talking.wav,고양이
+audio_test_augmented/audiotest_3_강아지_reverb.wav,강아지
+audio_test_augmented/audiotest_7_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_6_고양이_test_noise_reduced.wav,고양이
 audio_test_augmented/audio_5_고양이_test_mixer_crying baby.wav,고양이
 audio_test_augmented/test_7_강아지_frequency_masked.wav,강아지
-audio_test_augmented/audio_5_고양이_test_reverb_1.wav,고양이
 audio_test_augmented/audiotest_9_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_crying baby.wav,고양이
 audio_test_augmented/audio_0_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/test_7_고양이_speed_0.8.wav,고양이
 audio_test_augmented/audio_8_강아지_test_noise_reduced.wav,강아지
+audio_test_augmented/audio_3_고양이_test_reverb.wav,고양이
 audio_test_augmented/test_9_고양이_mixer_talking.wav,고양이
+audio_test_augmented/audio_2_강아지_test_speed_1.1.wav,강아지
 audio_test_augmented/test_4_강아지_step.wav,강아지
 audio_test_augmented/audio_5_강아지_test_mixer_coughing.wav,강아지
 audio_test_augmented/audiotest_7_고양이_mixer_cooking.wav,고양이
@@ -1256,48 +1255,49 @@ audio_test_augmented/test_4_강아지_noise_reduced.wav,강아지
 audio_test_augmented/test_1_강아지_mixer_breathing.wav,강아지
 audio_test_augmented/audiotest_6_고양이_speed_1.2.wav,고양이
 audio_test_augmented/test_6_강아지_mixer_Dog's barking.wav,강아지
+audio_test_augmented/test_6_고양이_speed_1.1.wav,고양이
 audio_test_augmented/audiotest_4_고양이_noise_reduced.wav,고양이
-audio_test_augmented/audiotest_1_강아지_random_3353Hz.wav,강아지
 audio_test_augmented/audio_9_강아지_test_mixer_eating.wav,강아지
 audio_test_augmented/audiotest_10_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/test_7_강아지_mixer_cooking.wav,강아지
 audio_test_augmented/audiotest_2_강아지_speed_1.2.wav,강아지
-audio_test_augmented/audiotest_10_강아지_reverb_1.wav,강아지
 audio_test_augmented/test_5_강아지_spec_augment_frequency_masked.wav,강아지
+audio_test_augmented/audio_5_고양이_test_random_3582Hz.wav,고양이
 audio_test_augmented/audio_1_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audio_0_고양이_test_mixer_coughing.wav,고양이
 audio_test_augmented/audio_9_고양이_test_step.wav,고양이
-audio_test_augmented/test_10_강아지_reverb_2.wav,강아지
 audio_test_augmented/audiotest_4_고양이_mixer_footsteps.wav,고양이
+audio_test_augmented/test_2_강아지_speed_1.1.wav,강아지
 audio_test_augmented/audio_7_고양이_test_mixer_breathing.wav,고양이
 audio_test_augmented/test_3_고양이_mixer_Dog's barking.wav,고양이
 audio_test_augmented/audiotest_3_고양이_mixer_coughing.wav,고양이
 audio_test_augmented/test_7_강아지_mixer_coughing.wav,강아지
+audio_test_augmented/audio_3_고양이_test_random_843Hz.wav,고양이
 audio_test_augmented/test_7_고양이_spec_augment_frequency_masked.wav,고양이
 audio_test_augmented/test_4_고양이_step.wav,고양이
 audio_test_augmented/audio_7_강아지_test_mixer_breathing.wav,강아지
 audio_test_augmented/test_9_강아지_mixer_crying baby.wav,강아지
 audio_test_augmented/audio_6_강아지_test_speed_0.8.wav,강아지
+audio_test_augmented/test_6_강아지_random_343Hz.wav,강아지
 audio_test_augmented/test_3_강아지_speed_0.8.wav,강아지
 audio_test_augmented/audio_8_강아지_test_specswap.wav,강아지
 audio_test_augmented/audiotest_10_고양이_mixer_footsteps.wav,고양이
-audio_test_augmented/audio_8_강아지_test_random_1404Hz.wav,강아지
+audio_test_augmented/test_3_강아지_speed_0.9.wav,강아지
+audio_test_augmented/audio_6_강아지_test_random_588Hz.wav,강아지
 audio_test_augmented/audio_3_고양이_test_speed_1.2.wav,고양이
-audio_test_augmented/audio_3_강아지_test_reverb_2.wav,강아지
+audio_test_augmented/audio_6_강아지_test_speed_0.9.wav,강아지
 audio_test_augmented/audiotest_9_강아지_mixer_Dog's barking.wav,강아지
 audio_test_augmented/audiotest_2_강아지_spec_augment_frequency_masked.wav,강아지
 audio_test_augmented/test_1_고양이_mixer_talking.wav,고양이
 audio_test_augmented/test_9_고양이_mixer_eating.wav,고양이
-audio_test_augmented/audiotest_10_강아지_reverb_0.wav,강아지
 audio_test_augmented/audiotest_10_강아지_mixer_eating.wav,강아지
 audio_test_augmented/audiotest_1_강아지_mixer_talking.wav,강아지
 audio_test_augmented/audio_2_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audiotest_5_고양이_mixer_breathing.wav,고양이
 audio_test_augmented/audio_0_강아지_test_specswap.wav,강아지
-audio_test_augmented/audio_0_고양이_test_random_2711Hz.wav,고양이
 audio_test_augmented/test_9_강아지_mixer_vacuum cleaner.wav,강아지
 audio_test_augmented/audio_3_고양이_test_mixer_vacuum cleaner.wav,고양이
 audio_test_augmented/audiotest_10_고양이_mixer_cooking.wav,고양이
 audio_test_augmented/test_9_고양이_mixer_vacuum cleaner.wav,고양이
+audio_test_augmented/test_7_고양이_speed_0.9.wav,고양이
 audio_test_augmented/audio_7_강아지_test_frequency_masked.wav,강아지
-audio_test_augmented/audio_5_고양이_test_reverb_0.wav,고양이

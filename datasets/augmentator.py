@@ -36,7 +36,7 @@ def load_and_apply_augmentation(script_path, audio_data, sample_rate, output_nam
         for augmented_data, suffix in augmentations:
             output_path = os.path.join(OUTPUT_DIR, f"{output_name_prefix}_{suffix}.wav")
             sf.write(output_path, augmented_data, sample_rate)
-            print(f"Saved augmented audio file: {output_path}")
+            # print(f"Saved augmented audio file: {output_path}")
 
 for audio_file in os.listdir(AUDIO_DIR):
     if not audio_file.endswith('.wav'):
