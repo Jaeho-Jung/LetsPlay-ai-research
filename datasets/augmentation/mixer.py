@@ -79,13 +79,13 @@ def apply_augmentation(y, sr, background_dir=_BACKGROUND_DIR):
         background_path = os.path.join(background_dir, background_file)
         background_audio = AudioSegment.from_file(background_path)
 
-        for target_snr_db in [10]:
+        for target_snr_db in [5, 15]:
             # Apply background mixing
             mixed_audio = mix_audio_with_snr(main_audio, background_audio, target_snr_db)
 
             # Convert mixed audio back to numpy format for output
             mixed_audio_data = np.array(mixed_audio.get_array_of_samples(), dtype=np.float32) / 32768.0  # Normalize to [-1, 1]
-            suffix = f"mixer_{os.path.splitext(background_file)[0]}"
+            suffix = f"mixer_{os.path.splitext(background_file)[0]}_{target_snr_db}db"
             
             augmentations.append((mixed_audio_data, suffix))
 

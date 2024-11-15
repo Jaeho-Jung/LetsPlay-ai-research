@@ -1,6 +1,7 @@
 import os
 import csv
 import sys
+import unicodedata
 from constants import _AUDIO_DIR, _AUDIO_AUG_DIR, _TRANSCRIPT_OUTPUT_FILE
 
 def create_mapping(audio_dirs):
@@ -13,7 +14,7 @@ def create_mapping(audio_dirs):
             file_name = os.path.splitext(audio_file)[0]
             file_name_list = file_name.split('_')
 
-            transcription = file_name_list[2]  # Adjust this as needed based on file naming convention
+            transcription = unicodedata.normalize('NFC', file_name_list[2])  # Adjust this as needed based on file naming convention
             audio_path = os.path.join(audio_dir, audio_file)
             mapping.append({'file': audio_path, 'text': transcription})
     

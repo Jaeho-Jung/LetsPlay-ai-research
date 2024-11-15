@@ -3,7 +3,7 @@ import numpy as np
 
 
 # Speed change values
-SPEEDS = [0.8, 0.9, 1.1, 1.2]  # Example speed factors
+SPEEDS = [0.9, 1.1]  # Example speed factors
 
 def change_speed(audio_segment, speed=1.0):
     """

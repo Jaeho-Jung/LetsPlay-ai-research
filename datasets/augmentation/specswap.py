@@ -36,7 +36,7 @@ def swap_time(spectrogram, max_time):
     spectrogram[:, t1:t1+t] = temp
     return spectrogram
 
-def specswap(spectrogram, max_freq=7, max_time=10):
+def specswap(spectrogram, max_freq=4, max_time=7):
     """Perform SpecSwap on the spectrogram."""
     swapped_spectrogram = spectrogram.copy()
     num_freq_bins, num_time_steps = swapped_spectrogram.shape

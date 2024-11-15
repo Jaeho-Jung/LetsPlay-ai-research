@@ -34,7 +34,7 @@ def apply_augmentation(y, sr):
     augmentations.append((y_random_filtered, random_suffix))
 
     # Step filter augmentation
-    y_step_filtered, step_suffix = apply_step_filter(y, sr, STEP_CUTOFFS, FILTER_TYPE)
-    augmentations.append((y_step_filtered, step_suffix))
+    # y_step_filtered, step_suffix = apply_step_filter(y, sr, STEP_CUTOFFS, FILTER_TYPE)
+    # augmentations.append((y_step_filtered, step_suffix))
 
     return augmentations
