@@ -8,39 +8,10 @@ from openai import OpenAI
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai = OpenAI(api_key=OPENAI_API_KEY)
 
-# response = openai.audio.speech.create(
-#     model="tts-1",
-#     voice="nova",
-#     input="Hello world! This is a streaming test.",
-# )
-
 speech_file_path = Path(__file__).parent / "speech.mp3"
 
 def main() -> None:
     stream_to_speakers()
-
-    # Create text-to-speech audio file
-    # with openai.audio.speech.with_streaming_response.create(
-    #     model="tts-1",
-    #     voice="nova",
-    #     input="테스트 음성",
-    # ) as response:
-    #     response.stream_to_file(speech_file_path)
-
-    # Create transcription from audio file
-    # transcription = openai.audio.transcriptions.create(
-    #     model="whisper-1",
-    #     file=speech_file_path,
-    # )
-    # print(transcription.text)
-
-    # # Create translation from audio file
-    # translation = openai.audio.translations.create(
-    #     model="whisper-1",
-    #     file=speech_file_path,
-    # )
-    # print(translation.text)
-
 
 def stream_to_speakers() -> None:
     import pyaudio

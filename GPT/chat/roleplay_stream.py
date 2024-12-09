@@ -34,27 +34,25 @@ async def async_main(messages, model="gpt-4o-mini"):
         stream=True,
     )
 
+    buffer = ''
     async for data in response:
-        yield data.choices[0].delta.content
-    # buffer = ''
-    # async for data in response:
-    #     # print(data.model_dump_json()['choices'][0].message.content)
-    #     # Get content from the delta
-    #     content = data.choices[0].delta.content
-    #     buffer += content
-    #      # Check for sentence-ending punctuation
-    #     while any(punct in buffer for punct in [".", "!", "?"]):
-    #         # Find the first sentence-ending punctuation
-    #         for punct in [".", "!", "?"]:
-    #             if punct in buffer:
-    #                 sentence, buffer = buffer.split(punct, 1)
-    #                 sentence = sentence.strip() + punct
-    #                 print(sentence)  # Output the complete sentence
-    #                 break
+        # print(data.model_dump_json()['choices'][0].message.content)
+        # Get content from the delta
+        content = data.choices[0].delta.content
+        buffer += content
+         # Check for sentence-ending punctuation
+        while any(punct in buffer for punct in [".", "!", "?"]):
+            # Find the first sentence-ending punctuation
+            for punct in [".", "!", "?"]:
+                if punct in buffer:
+                    sentence, buffer = buffer.split(punct, 1)
+                    sentence = sentence.strip() + punct
+                    print(sentence)  # Output the complete sentence
+                    break
 
-    # # Print any remaining content in the buffer
-    # if buffer.strip():
-    #     print(buffer.strip())
+    # Print any remaining content in the buffer
+    if buffer.strip():
+        print(buffer.strip())
 
 
 api_key = os.getenv('OPENAI_API_KEY')
