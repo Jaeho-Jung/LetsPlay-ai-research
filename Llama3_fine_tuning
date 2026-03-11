@@ -1,0 +1,147 @@
+# https://github.com/JiYoun0216/baemin.git 에 원본 코드와 데이터셋 코드 있음.
+
+import os
+import torch
+from datasets import load_dataset
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    BitsAndBytesConfig,
+    TrainingArguments,
+    pipeline,
+    logging,
+)
+from peft import LoraConfig
+from trl import SFTTrainer
+import huggingface_hub
+import requests
+from datasets import Dataset
+
+# 캐시 정리
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+print(os.environ.get("PYTORCH_CUDA_ALLOC_CONF"))
+torch.cuda.empty_cache()
+torch.cuda.reset_peak_memory_stats()
+
+huggingface_hub.login("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")
+file_url = "https://raw.githubusercontent.com/JiYoun0216/baemin/main/baemin_dataset.json"
+response = requests.get(file_url)
+if response.status_code == 200:
+    raw_data = response.json()
+else:
+    raise Exception(f"파일을 가져오지 못했습니다. 상태 코드: {response.status_code}")
+# 데이터셋 변환
+dataset = Dataset.from_dict({"text": [entry["text"] for entry in raw_data]})
+
+# 데이터셋에서 상위 500개 선택
+dataset = dataset.select(range(500))
+print(f"데이터셋 크기: {len(dataset)}")
+print(f"첫 번째 데이터: {dataset[0]}")
+
+# GPU 환경 확인 및 설정
+if torch.cuda.get_device_capability()[0] >= 8:
+    !pip install -qqq flash-attn
+    attn_implementation = "flash_attention_2"
+    torch_dtype = torch.bfloat16
+else:
+    attn_implementation = "eager"
+    torch_dtype = torch.float16
+
+# QLoRA 양자화 설정
+quant_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.bfloat16,
+)
+
+# 모델 로드
+base_model = "beomi/Llama-3-Open-Ko-8B"  # 기본 LLaMA3 한국어 모델
+new_model = "Llama3-Ko-3-8B-baemin"      
+
+model = AutoModelForCausalLM.from_pretrained(
+    base_model,
+    quantization_config=quant_config,
+    device_map={"": 0}	# 0번째 gpu 에 할당
+)
+model.config.use_cache = False   # 캐시 비활성화
+model.config.pretraining_tp = 1  # 단일 GPU 실행 설정
+
+# 토크나이저 로드 및 설정
+tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True)
+tokenizer.pad_token = tokenizer.eos_token
+tokenizer.padding_side = "right"
+
+# PEFT 설정 (LoRA)
+peft_params = LoraConfig(
+    lora_alpha=16,
+    lora_dropout=0.1,
+    r=64,
+    bias="none",
+    task_type="CAUSAL_LM",
+)
+
+# TrainingArguments 설정
+training_params = TrainingArguments(
+    output_dir="/results",
+    num_train_epochs=1,  
+    max_steps=2500,      
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=1,
+    optim="paged_adamw_8bit",
+    warmup_steps=0,  
+    learning_rate=2e-4,
+    fp16=True,
+    logging_steps=100,
+    push_to_hub=False,
+    report_to="none",
+)
+
+# 학습
+trainer = SFTTrainer(
+    model=model,
+    train_dataset=dataset,
+    peft_config=peft_params,
+    dataset_text_field="text",
+    max_seq_length=512,  # 최대 시퀀스 길이
+    tokenizer=tokenizer,
+    args=training_params,
+    packing=False,
+)
+
+print("Allocated memory:", torch.cuda.memory_allocated() / 1024**2, "MiB")
+print("Cached memory:", torch.cuda.memory_reserved() / 1024**2, "MiB")
+
+# 학습 시작
+trainer.train()
+
+# 모델 저장
+trainer.save_model(new_model)
+
+# 테스트
+logging.set_verbosity(logging.CRITICAL)
+prompt = "알바생이 3일 일하고 그만뒀는데 주휴수당을 줘야 하나요?"
+pipe = pipeline(task="text-generation", model=model, tokenizer=tokenizer, max_length=200)
+result = pipe(f"<s>[INST] {prompt} [/INST]")
+
+print("질문 :", prompt)
+print("챗봇의 답변 :", result[0]["generated_text"])
+
+print("/n")
+
+# 대화형 챗봇
+print("챗봇에 질문하세요. '종료'를 입력하면 대화를 종료합니다.")
+
+while True:
+    # 사용자 질문 입력
+    prompt = input("질문 : ")
+    
+    # 종료 조건
+    if prompt.lower() == "종료":
+        print("대화를 종료합니다.")
+        break
+
+    # 모델 응답 생성
+    result = pipe(f"<s>[INST] {prompt} [/INST]")
+
+    # 결과 출력
+    print("챗봇의 답변 :", result[0]["generated_text"])
