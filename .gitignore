@@ -2,6 +2,13 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 .virtual_documents/
-test/
 .env
+
+# Large model / dataset files
 XTTS-v2/
+**/datasets/
+*.wav
+*.mp3
+
+# IDE
+.vscode/
