@@ -9,7 +9,7 @@
 [![GCP](https://img.shields.io/badge/GCP-Cloud_Run-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/run)
 
 **Note**: 본 레포지토리는 **모델링 실험, 추론 최적화, 트러블슈팅 과정**을 담고 있습니다.  
-이 실험 결과를 바탕으로 최종 구현된 서비스(앱/백엔드) 코드는 **[LetsPlay-server](https://github.com/Jaeho-Jung/LetsPlay-server)**에서 확인하실 수 있습니다.
+이 실험 결과를 바탕으로 최종 구현된 서비스(앱/백엔드) 코드는 [LetsPlay-server](https://github.com/Jaeho-Jung/LetsPlay-server)에서 확인하실 수 있습니다.
 
 ---
 
@@ -46,9 +46,9 @@
 
 ```
 ┌──────────┐   WebSocket   ┌───────────────────────────────────────────────┐   WebSocket   ┌──────────┐
-│  Client  │ ────────────→ │  ① STT (Faster-Whisper)  [Blocking]          │ ←──────────── │  Client  │
-│  (App)   │               │  ② LLM (GPT-4o-mini)     [Streaming] ──┐    │               │  (App)   │
-│          │ ←──────────── │  ③ TTS (OpenAI TTS-1)    [Streaming] ←─┘    │ ────────────→ │          │
+│  Client  │ ────────────→ │  ① STT (Faster-Whisper)  [Blocking]           │ ←─────────── │   Client  │
+│  (App)   │               │  ② LLM (GPT-4o-mini)     [Streaming] ──┐      │              │   (App)   │
+│          │ ←──────────── │  ③ TTS (OpenAI TTS-1)    [Streaming] ←─┘      │ ───────────→ │           │
 └──────────┘   Audio PCM   └───────────────────────────────────────────────┘   Audio PCM   └──────────┘
 ```
 
@@ -164,7 +164,7 @@
 
 - **모델**: `unsloth/Meta-Llama-3.1-8B` + 4-bit QLoRA + Flash Attention
 - **환경**: 단일 GPU (T4)
-- **결과**: Alpaca 형태 데이터셋 파인튜닝 및 추론 파이프라인 검증 성공 ✅
+- **결과**: Alpaca 형태 데이터셋 파인튜닝 및 추론 파이프라인 검증 성공
 
 ---
 
