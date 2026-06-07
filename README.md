@@ -46,15 +46,16 @@
 
 증강된 4,200개 데이터셋으로 `openai/whisper-tiny` 파인튜닝을 진행했습니다.
 
-**Issue: 지표 수렴 및 과적합**
+**Issue: 초기 학습 불안정**
 - Training Loss → 0 수렴, Validation Loss 요동
-- WER/CER이 0.119048에 고정 수렴
+- Dropout 적용 전 WER/CER 0.119048에 고정 수렴
 
 **Troubleshooting**
 - Dropout 적용: `attention_dropout=0.2`, `activation_dropout=0.2`
-- 정규화: `weight_decay=0.01`
-- LR 스케줄링: `1e-5` → `1e-6` → `5e-5`, Cosine Annealing
-- **결론**: 모델 크기(tiny)의 한계 확인 → `whisper-small` 스케일업 및 AIHub 오픈소스 가중치 도입 결정
+- 정규화: `weight_decay=0.1`
+- LR: `1e-5`, Cosine Annealing
+- **결과**: Step 1500 기준 CER 0.0000 수렴 — 증강된 키워드 데이터셋 내 정확도 확보
+- **결론**: 소수 키워드(강아지, 고양이 등) 데이터에 대한 과적합 확인. 실제 아동 발화 일반화를 위해 `whisper-small` 스케일업 및 AIHub 오픈소스 가중치 도입 결정
 
 ---
 
@@ -66,7 +67,7 @@
 
 | 접근 | 결과 |
 |---|---|
-| **ONNX → TFLite** | 변환 성공, 추론 시 무의미한 토큰 반복 출력 (`[50258, 50264... 918, 918]`) |
+| **ONNX → TFLite** | 변환 성공, 추론 시 문자 수준 쓰레기값 반복 출력 (e.g., `_88888888Z88ZZZ...`) |
 | **OpenVINO INT8** | 변환 및 CPU 추론 성공, 프레임워크 다각도 검토 수행 |
 
 ### 한계 및 피벗 (Edge → Cloud)
@@ -79,7 +80,7 @@
 
 역할놀이에 맞는 페르소나와 문맥 유지를 위한 sLLM 도입을 검토했습니다.
 
-- **모델**: `unsloth/Meta-Llama-3.1-8B` + 4-bit QLoRA + Flash Attention
+- **모델**: `unsloth/Meta-Llama-3.1-8B` + 4-bit QLoRA + Xformers (Flash Attention 2는 T4 미지원으로 비활성화)
 - **환경**: 단일 GPU (T4)
 - **결과**: Alpaca 형태 데이터셋 파인튜닝 및 추론 파이프라인 검증 성공
 
@@ -106,6 +107,8 @@
 - GCP Cloud Run 기준 요청당 비용: GPU가 단가는 높으나 처리량 차이로 **21배 저렴**
 
 **GPU 엔진 비교 및 최종 채택**
+
+> 아래 표는 워밍업 없는 첫 번째 추론 기준 측정값으로, Direct Inference를 기준(1.00x)으로 각 엔진의 상대 속도를 비교합니다 (위 표의 0.39s는 워밍업 후 안정 상태 측정값).
 
 | 엔진 | 속도 | 모델 VRAM | 피크 VRAM |
 |---|:---:|:---:|:---:|
@@ -154,6 +157,8 @@ experiments/
 ├── 03_inference_optimization/                    # Part 4: 추론 최적화 & 동시성 벤치마크
 │   ├── gpu_inference_fp16_chunking.ipynb           # GPU 추론 엔진 비교 (Direct/CT2/compile)
 │   ├── cpu_inference_benchmark.ipynb               # CPU 추론 벤치마크 (FP32/INT8/ONNX)
+│   ├── fastapi_whisper_server.ipynb                # FastAPI 기반 Whisper 서버 프로토타입
+│   ├── whisper_inference_gradio.ipynb              # Gradio 인터페이스 추론 데모
 │   ├── benchmark_concurrency.py                    # 동시성 벤치마크 스크립트
 │   ├── whisper_service_queue.py                    # Async Queue & Micro-batch 서비스 구현
 │   └── benchmark_analysis.md                       # 동시성 벤치마크 분석 보고서
