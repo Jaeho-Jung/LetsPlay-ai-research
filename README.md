@@ -1,14 +1,13 @@
-# LetsPlay — 영유아 역할놀이 챗봇 AI R&D
+# LetsPlay 음성 AI 실험
 
-> 기업 연계 캡스톤 프로젝트 — **영유아 맞춤형 실시간 음성 인식 및 역할놀이 챗봇** 구현을 위한 AI 사전 연구, 데이터 실험, 추론 최적화 벤치마크 기록
+> 영유아 역할놀이 챗봇 캡스톤에서 진행한 음성 인식 실험과 프로젝트 종료 후의 추론 벤치마크를 기록했습니다.
 
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
 [![HuggingFace](https://img.shields.io/badge/🤗_Transformers-4.45+-FFD21E)](https://huggingface.co/transformers)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-FF6F00?logo=tensorflow&logoColor=white)](https://tensorflow.org)
 
-이 레포지토리는 영유아 역할놀이 챗봇(LetsPlay) 구현을 위한 **AI 모델 사전 연구**, **데이터 실험**, 그리고 프로젝트 종료 후 수행한 **추론 최적화 벤치마크**를 담고 있습니다.  
-이 연구 결과를 반영하여 구축된 실제 서비스 백엔드는 [LetsPlay-server](https://github.com/Jaeho-Jung/LetsPlay-server)에서 확인하실 수 있습니다.
+모델 실험과 서버 코드를 분리했습니다. STT·LLM·TTS를 연결한 백엔드는 [LetsPlay-server](https://github.com/Jaeho-Jung/LetsPlay-server)에 있습니다.
 
 ---
 
@@ -192,18 +191,11 @@ experiments/
 
 ---
 
-## 결론 및 회고 (Lessons Learned)
+## 프로젝트에서 바꾼 결정
 
-데이터를 가공하는 모델링 영역부터 인프라의 한계를 극복하는 추론 최적화까지, **AI 프로덕트의 전체 사이클**을 경험했습니다.
+초기 아동 음성 200개를 증강해 4,200개 학습 데이터를 만들었습니다. Whisper-tiny의 제한된 키워드 검증 결과가 실제 발화에 대한 일반화를 보여주지 못해 아동 음성으로 학습된 Whisper-small 모델로 전환했습니다. TFLite 변환 모델의 출력 문제로 온디바이스 추론을 계속 진행하지 못했고 서버 추론으로 구조를 바꿨습니다.
 
-| 교훈 | 상세 |
-|---|---|
-| **수치 기반 의사결정** | "무조건 빠른 것"이 정답이 아님. Latency × 메모리 × 운영 안정성의 트레이드오프를 비교하고, 측정 도구와 재현 조건의 중요성을 확인 |
-| **유연한 아키텍처 피벗** | 온디바이스 배포 가능성 검증 결과를 바탕으로 클라우드로 전환하고, 기술적 결정의 근거를 수립하는 역량 습득 |
-| **데이터 파이프라인** | 초기 데이터 200개를 21배 증강하는 파이프라인 구축, 도메인 맞춤 데이터 가공 역량 습득 |
-| **실용주의적 접근** | 모델 변환·런타임 적용과 파인튜닝의 현실적 한계를 구분하고, 오픈소스(`whisper-small`) 도입으로 유연한 의사결정 |
-
-**최종 서비스 코드**: [LetsPlay-server](https://github.com/Jaeho-Jung/LetsPlay-server)
+프로젝트 종료 후에는 같은 오디오 경로의 50건 처리 실험에서 처리량과 P95 지연을 비교했습니다. 이 값에는 네트워크 시간이 포함되지 않아 실제 서비스 응답 시간으로 사용하지 않습니다. 서버 코드는 [LetsPlay-server](https://github.com/Jaeho-Jung/LetsPlay-server)에 있습니다.
 
 ---
 
